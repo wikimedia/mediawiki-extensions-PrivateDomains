@@ -32,7 +32,7 @@ class PrivateDomains extends SpecialPage {
 		if ( $nameTitle->exists() ) {
 			$article->quickEdit( $value );
 		} else {
-			$article->insertNewArticle( $value, '', false, false, false, false );
+			$article->doEdit( $value, '' );
 		}
 	}
 
