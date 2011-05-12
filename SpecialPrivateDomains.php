@@ -29,11 +29,7 @@ class PrivateDomains extends SpecialPage {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
 		$article = new Article( $nameTitle );
 
-		if ( $nameTitle->exists() ) {
-			$article->quickEdit( $value );
-		} else {
-			$article->doEdit( $value, '' );
-		}
+		$article->doEdit( $value, '' );
 	}
 
 	/**
