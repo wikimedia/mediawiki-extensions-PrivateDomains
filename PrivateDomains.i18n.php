@@ -132,6 +132,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Alexandre Emsenhuber
+ * @author IAlex
  */
 $messages['fr'] = array(
 	'privatedomains-nomanageaccess' => "Désolé, vous n'avez les droits suffisants pour gérer les domaines privés de ce wiki. Seuls les bureaucrates et les membres du personnel y ont accès.Si vous n'êtes pas connecté, vous devriez probablement [[Special:UserLogin|vous connecter]].",
@@ -142,6 +143,7 @@ $messages['fr'] = array(
 	'privatedomains-affiliatenamelabel' => "Nom de l'organisation :",
 	'privatedomains-emailadminlabel' => "Nom d'utilisateur du contact pour des problèmes d'accès ou requêtes :",
 	'privatedomains-instructions' => '<br /> <br /> La liste des domaines des adresses de courriel autorisées pour les éditeurs de ce wiki est affichée ci-dessous. Chaque ligne désigne un suffixe d\'adresse de courriel qui donne accès aux éditeurs. La liste doit être formatée avec un suffixe par ligne. Par exemple : <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div> Ceci permettra à toutes les personnes ayant une adresse de courriel se terminant par « @cs.stanford.edu » et  « @stanfordalumni.org » de modifier le wiki. <b>Entrez la liste des domaines autorisés dans la boîte ci-dessous et cliquez sur « sauvegarder ».</b>',
+	'right-privatedomains' => 'Gérer les domaines privés',
 );
 
 /** Galician (Galego)
