@@ -119,6 +119,16 @@ $messages['es'] = array(
 	'privatedomains-instructions' => 'A continuación se presenta la lista de dominios de correo electrónico permitidos para los editores de esta wiki. Cad línea designa un sufijo de correo electrónico que puede editar en esta wiki. Esta debería tener un formato de un sufijo por línea. Por ejemplo:<div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>El ejemplo anterior debería permitir las ediciones de alguien cuya dirección de correo sea loquesea@cs.stanford.edu o loquesea@stanfordalumni.org</div><b>Ingrese los dominios permitidos en el cuadro de texto que se muestra debajo y haga clic en "guardar".</b>',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'privatedomains' => 'Domeinu pribatuak kudeatu',
+	'saveprivatedomains-success' => 'Domeinu pribatuetako aldaketak gordeta.',
+	'privatedomains-affiliatenamelabel' => 'Erakundearen izena:',
+	'right-privatedomains' => 'Domeinu pribatuak kudeatu',
+);
+
 /** Finnish (Suomi)
  * @author Centerlink
  */
@@ -315,6 +325,7 @@ $messages['ru'] = array(
 	'privatedomains-affiliatenamelabel' => 'Название организации:',
 	'privatedomains-emailadminlabel' => 'Контактное имя участника для запросов или проблем с доступом:',
 	'privatedomains-instructions' => 'Ниже приведён список почтовых доменов, допустимых для редакторов этой вики. Каждая строка обозначает суффикс адреса электронной почты, позволяющего производить правки. На каждой строке должно быть не более одного суффикса. Например:  <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div> Подобная настройка позволит править статьи участникам, обладающим электронными адресами  whatever@cs.stanford.edu и whatever@stanfordalumni.org</div> <b>Введите разрешённые домены в представленное ниже текстовое поле и нажмите «Сохранить».</b>',
+	'right-privatedomains' => 'управление частными доменами',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
