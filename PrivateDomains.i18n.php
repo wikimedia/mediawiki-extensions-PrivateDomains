@@ -96,13 +96,18 @@ Hierdurch wird es allen Benutzern gestattet dieses Wiki zu bearbeiten, die über
 	'right-privatedomains' => 'Zulässige Domains festlegen und verwalten',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
  * @author LWChris
  */
 $messages['de-formal'] = array(
-	'privatedomains-nomanageaccess' => "Entschuldigung, Sie haben nicht genügend Rechte, um die erlaubten privaten Domains für dieses Wiki zu verwalten. Nur Wiki Bürokraten und Mitarbeiter haben Zugang.Wenn Sie nicht eingeloggt sind, sollten Sie dies wahrscheinlich [[Special:UserLogin|machen]].",
-	'privatedomains-ifemailcontact' => 'Andernfalls wenden Sie sich bitte an [[Special:EmailUser/$1|$1]] falls Sie Fragen haben.',
-	'privatedomains-invalidemail' => 'Tut uns leid, aber der Zugang zu diesem Wiki ist auf Mitglieder von $1 beschränkt. Wenn Sie eine E-Mail-Adresse von $1 besitzen, können Sie es betreten, oder bestätigen Sie Ihre E-Mail Adresse in Ihren Konteneinstellungen [[Special:Preferences|hier]]. Sie können weiterhin Seiten in diesem Wiki ansehen, werden sie aber nicht bearbeiten können.',
+	'privatedomains-nomanageaccess' => 'Sie haben nicht die Berechtigung zulässige Domains für dieses Wiki festzulegen sowie zu verwalten. Nur Benutzer mit der Berechtigung „privatedomains“ können dies.
+
+Sofern Sie lediglich nicht angemeldet sind, können Sie [[Special:UserLogin|hier machen]].',
+	'privatedomains-ifemailcontact' => 'Ansonsten wenden Sie sich bitte im Fall von Fragen an Benutzer [[Special:EmailUser/$1|$1]].',
+	'privatedomains-invalidemail' => 'Der Zugang zu diesem Wiki ist auf Personen mit einer E-Mail-Adresse der Domain $1 beschränkt.
+Sofern Sie über eine E-Mail-Adresse dieser Domain verfügen, können Sie sie auf der Spezialseite [[Special:Preferences|Einstellungen]] angeben und bestätigen oder ändern und erneut bestätigen.
+Sie können weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbeiten.',
 );
 
 /** Spanish (Español)
