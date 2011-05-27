@@ -161,6 +161,15 @@ $messages['fr'] = array(
 	'right-privatedomains' => 'Gérer les domaines privés',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'privatedomains' => 'Administrar los domênos privâs',
+	'privatedomains-affiliatenamelabel' => 'Nom de l’organisacion :',
+	'right-privatedomains' => 'Administrar los domênos privâs',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
