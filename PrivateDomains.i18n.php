@@ -57,6 +57,7 @@ $messages['be-tarask'] = array(
 	'privatedomains-affiliatenamelabel' => 'Назва арганізацыі:',
 	'privatedomains-emailadminlabel' => 'Кантактнае імя ўдзельніка для праблемаў уваходу альбо запытаў:',
 	'privatedomains-instructions' => 'Ніжэй пададзены сьпіс паштовых дамэнаў дазволеных для рэдактараў {{GRAMMAR:родны|{{SITENAME}}}}. Кожны радок вызначае суфікс адрасу электроннай пошты, які дазваляе доступ да рэдагаваньня. Ён павінен мець выгляд: адзін суфікс на радок. Напрыклад: <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>Гэта дазволіць рэдагаваньне толькі удзельнікам з адрасам электроннай пошты whatever@cs.stanford.edu альбо whatever@stanfordalumni.org</div><b>Увядзіце дазволеныя дамэны ў тэкставае поле ніжэй і націсьніце «Захаваць».</b>',
+	'right-privatedomains' => 'кіраваньне прыватнымі дамэнамі',
 );
 
 /** Breton (Brezhoneg)
