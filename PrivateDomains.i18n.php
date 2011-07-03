@@ -291,6 +291,7 @@ Jeśli nie jesteś zalogowany możliwe, że powinieneś najpierw [[Special:UserL
 <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>
 Pozwoli to edytować np posiadaczom adresów whatever@cs.stanford.edu lub whatever@stanfordalumni.org</div>
 <b>Wprowadź dozwolone domeny w polu tekstowym i kliknij przycisk „{{int:saveprefs}}“.</b>',
+	'right-privatedomains' => 'Zarządzanie własnymi domenami',
 );
 
 /** Piedmontese (Piemontèis)
