@@ -307,7 +307,7 @@ $messages['pms'] = array(
 	'privatedomains-affiliatenamelabel' => "Nòm ëd l'organisassion:",
 	'privatedomains-emailadminlabel' => "Contata nòm utent për problem d'acess o custion:",
 	'privatedomains-instructions' => "<br /> <br /> Sota a-i é la lista dij domini ëd pòsta eletrònica përmëttù a j'editor dë sta wiki-sì. Minca linia a spessìfica un sufiss ëd pòsta eletrònica che a l'ha acess për modifiché. Sòn a dovrìa pijé la forma con un sufiss për linia. Për esempi: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div> Sòn a përmët modìfiche da tuti coj ch'a l'han l'adrëssa ëd pòsta eletrònica whatever@cs.stanford.edu o whatever@stanfordalumni.org</div> <b>Ch'a anserissa ij domini përmëttù ant la casela ëd test sì-sota, e ch'a sgnaca \"salvé\".</b>",
-	'right-privatedomains' => 'Gestì domini privà',
+	'right-privatedomains' => 'Gestì ij domini privà',
 );
 
 /** Portuguese (Português)
