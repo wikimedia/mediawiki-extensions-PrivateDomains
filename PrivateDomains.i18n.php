@@ -34,6 +34,13 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
 	'right-privatedomains' => 'Manage private domains',
 );
 
+/** Message documentation (Message documentation)
+ * @author Umherirrender
+ */
+$messages['qqq'] = array(
+	'right-privatedomains' => '{{doc-right|privatedomains}}',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
