@@ -352,11 +352,12 @@ $messages['ru'] = array(
 	'right-privatedomains' => 'управление частными доменами',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Verlor
  */
 $messages['sr-ec'] = array(
-	'privatedomains-affiliatenamelabel' => 'Име организације:',
+	'privatedomains-affiliatenamelabel' => 'Назив организације:',
 );
 
 /** Telugu (తెలుగు)
