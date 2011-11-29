@@ -203,6 +203,17 @@ Isto permitirá as edicións de aqueles que teña un enderezo de correo electró
 	'right-privatedomains' => 'Xestionar dominios privados',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'privatedomains' => 'Priwatne domeny zarjadować',
+	'privatedomains-ifemailcontact' => 'Hewak staj so z [[Special:EmailUser/$1|$1]] do zwiska, jeli maš prašenja.',
+	'saveprivatedomains-success' => 'Změny priwatnych domenow su so składowali.',
+	'privatedomains-affiliatenamelabel' => 'Mjeno organizacije:',
+	'right-privatedomains' => 'Priwatne domeny zarjadować',
+);
+
 /** Hungarian (Magyar)
  * @author Glanthor Reviol
  */
