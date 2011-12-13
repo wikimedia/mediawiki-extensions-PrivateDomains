@@ -22,7 +22,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'version' => '1.0',
 	'author' => array( 'Inez Korczyński', 'Jack Phoenix' ),
 	'description' => 'Allows to restrict editing to users with a certain e-mail address',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:PrivateDomains',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:PrivateDomains',
 );
 
 // Set up the new special page
