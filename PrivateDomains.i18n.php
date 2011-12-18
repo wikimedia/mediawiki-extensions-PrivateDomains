@@ -207,10 +207,15 @@ Isto permitirá as edicións de aqueles que teña un enderezo de correo electró
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'privatedomains-nomanageaccess' => 'Nimaće prawa za rjadowanje dowolenych priwatnych domenow za tutón wiki.
+Jenož wikijowi běrokraća a čłonojo team maju přistup.
+
+Jeli njejsy přizjewjeny, móžeš to [[Special:UserLogin|nachwatać]].',
 	'privatedomains' => 'Priwatne domeny zarjadować',
 	'privatedomains-ifemailcontact' => 'Hewak staj so z [[Special:EmailUser/$1|$1]] do zwiska, jeli maš prašenja.',
 	'saveprivatedomains-success' => 'Změny priwatnych domenow su so składowali.',
 	'privatedomains-affiliatenamelabel' => 'Mjeno organizacije:',
+	'privatedomains-emailadminlabel' => 'Wužiwarske mjeno kontaktoweje wosoby za přistupne problemy abo naprašowanja:',
 	'right-privatedomains' => 'Priwatne domeny zarjadować',
 );
 
