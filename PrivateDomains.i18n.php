@@ -214,8 +214,17 @@ Jeli njejsy přizjewjeny, móžeš to [[Special:UserLogin|nachwatać]].',
 	'privatedomains' => 'Priwatne domeny zarjadować',
 	'privatedomains-ifemailcontact' => 'Hewak staj so z [[Special:EmailUser/$1|$1]] do zwiska, jeli maš prašenja.',
 	'saveprivatedomains-success' => 'Změny priwatnych domenow su so składowali.',
+	'privatedomains-invalidemail' => 'Přistup na tutón wiki je bohužel na čłonow domeny $1 wobmjezowany.
+Jeli maš e-mejlowu adresu tuteje domeny, móžeš e-mejlowu adesu na stronje swojich [[Special:Preferences|kontowych nastajenjow]] zapodać abo znowa wobkrućić.
+Móžeš sej hišće strony na tutym wikiju wobhladać, ale njemóžeš je wobdźěłać.',
 	'privatedomains-affiliatenamelabel' => 'Mjeno organizacije:',
 	'privatedomains-emailadminlabel' => 'Wužiwarske mjeno kontaktoweje wosoby za přistupne problemy abo naprašowanja:',
+	'privatedomains-instructions' => 'Deleka je lisćina e-mejlowych domenow, kotrež su za wobdźěłarjow tutoho wikija dopušćene.
+Kóžda linka podawa e-mejlowy sufiks, kotryž wobdźěłowanje dowola.
+Na kóždej lince ma jedyn sufiks stać.
+Na přikład:<div style="width: 20%; padding:5px; border: 1px solid grey;">hsb.priklad.de<br />priklad.de</div>
+To dowoli změny wot kóždeho, kotryž ma e-mejlowu adresu stozkuli@hsb.priklad.de abo stozkuli@priklad.de.
+<b>Zapodaj dowolene domeny w slědowacym tekstowym polu a klikń na "składować".</b>',
 	'right-privatedomains' => 'Priwatne domeny zarjadować',
 );
 
