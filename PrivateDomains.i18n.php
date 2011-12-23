@@ -385,6 +385,11 @@ $messages['sr-ec'] = array(
 	'privatedomains-affiliatenamelabel' => 'Назив организације:',
 );
 
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
