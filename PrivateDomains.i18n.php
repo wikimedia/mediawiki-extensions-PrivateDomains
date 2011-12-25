@@ -274,6 +274,20 @@ $messages['mk'] = array(
 	'right-privatedomains' => 'Раководење со приватни домени',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'privatedomains-nomanageaccess' => 'Beklager, du har ikke nok rettigheter til å håndtere tillatte private domener for denne wikien. Kun wikibyråkrater og stabsmedlemmer har tilgang.Du bør [[Special:UserLogin|logge inn]] om du ikke alt har gjort det.',
+	'privatedomains' => 'Håndter private domener',
+	'privatedomains-ifemailcontact' => 'Hvis ikke, kontakt [[Special:EmailUser/$1|$1]] om du har spørsmål.',
+	'saveprivatedomains-success' => 'Endringer for private domener lagret.',
+	'privatedomains-invalidemail' => 'Beklager, tilgang til denne wikien er begrenset til medlemmer av $1. Om du har en e-postadresse tilknyttet $1 kan du skrive den inn eller bekrefte den på din side for [[Special:Preferences|kontoinnstillinger]]. Du kan fortsatt se sidene på denne wikien, men du kan ikke redigere dem.',
+	'privatedomains-affiliatenamelabel' => 'Navn på organisasjon:',
+	'privatedomains-emailadminlabel' => 'Kontakt brukernavn for tilgangsproblemer eller spørsmål:',
+	'privatedomains-instructions' => 'Under er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style="width:20%; padding:5px; border:1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>Dette ville tillatt redigeringer fra enhver med e-postadresse hvasomhelst@cs.stanford.edu og hvasomhelst@stanfordalumni.org</div><b>Skriv inn tillatte domener i tekstboksen under og klikk «lagre».</b>',
+);
+
 /** Dutch (Nederlands)
  * @author Mark van Alphen
  * @author Mitchel Corstjens
@@ -290,20 +304,6 @@ $messages['nl'] = array(
 	'privatedomains-emailadminlabel' => 'Neem contact op met gebruikersnaam voor toegangsproblemen of als je vragen hebt',
 	'privatedomains-instructions' => '<br /> <br /> Onderstaande is een lijst van email domeinen toegestaan voor bewerkers op deze wiki. Elke regel wijst een email achtervoegsel toe die in staat is om deze wiki te bewerken. Formateer dit met een achtervoegsel per regel. Voorbeeld <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div> Dit zou iedereen toe moeten staan om te bewerken met het email adres whatever@cs.stanford.edu of whatever@stanfordalumni.org</div> <b>Type de toegestane domeinen in de onderstaande tekst box, en klik op "opslaan".</b>',
 	'right-privatedomains' => 'Private domeinen beheren',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'privatedomains-nomanageaccess' => 'Beklager, du har ikke nok rettigheter til å håndtere tillatte private domener for denne wikien. Kun wikibyråkrater og stabsmedlemmer har tilgang.Du bør [[Special:UserLogin|logge inn]] om du ikke alt har gjort det.',
-	'privatedomains' => 'Håndter private domener',
-	'privatedomains-ifemailcontact' => 'Hvis ikke, kontakt [[Special:EmailUser/$1|$1]] om du har spørsmål.',
-	'saveprivatedomains-success' => 'Endringer for private domener lagret.',
-	'privatedomains-invalidemail' => 'Beklager, tilgang til denne wikien er begrenset til medlemmer av $1. Om du har en e-postadresse tilknyttet $1 kan du skrive den inn eller bekrefte den på din side for [[Special:Preferences|kontoinnstillinger]]. Du kan fortsatt se sidene på denne wikien, men du kan ikke redigere dem.',
-	'privatedomains-affiliatenamelabel' => 'Navn på organisasjon:',
-	'privatedomains-emailadminlabel' => 'Kontakt brukernavn for tilgangsproblemer eller spørsmål:',
-	'privatedomains-instructions' => 'Under er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style="width:20%; padding:5px; border:1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>Dette ville tillatt redigeringer fra enhver med e-postadresse hvasomhelst@cs.stanford.edu og hvasomhelst@stanfordalumni.org</div><b>Skriv inn tillatte domener i tekstboksen under og klikk «lagre».</b>',
 );
 
 /** Polish (Polski)
