@@ -5,7 +5,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.0
+ * @version 1.1
  * @author Inez Korczyński <korczynski@gmail.com>
  * @author Jack Phoenix <jack@countervandalism.net>
  * @link http://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
@@ -19,7 +19,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'PrivateDomains',
-	'version' => '1.0',
+	'version' => '1.1',
 	'author' => array( 'Inez Korczyński', 'Jack Phoenix' ),
 	'description' => 'Allows to restrict editing to users with a certain e-mail address',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PrivateDomains',
@@ -77,7 +77,7 @@ $wgGroupPermissions['privatedomains']['minoredit'] = true;
  * If user isn't in group privatedomains/staff/bureaucrat then
  * deny access to edit page and show information box.
  */
-function pd_AlternateEdit( &$editpage ) {
+function pd_AlternateEdit( $editpage ) {
 	global $wgUser;
 	$groups = $wgUser->getEffectiveGroups();
 	if (
