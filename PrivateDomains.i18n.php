@@ -119,6 +119,7 @@ Sie können weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbe
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Pertile
  */
 $messages['es'] = array(
@@ -130,6 +131,7 @@ $messages['es'] = array(
 	'privatedomains-affiliatenamelabel' => 'Nombre de la organización:',
 	'privatedomains-emailadminlabel' => 'Nombre de usuario del contacto para problemas o consultas:',
 	'privatedomains-instructions' => 'A continuación se presenta la lista de dominios de correo electrónico permitidos para los editores de esta wiki. Cad línea designa un sufijo de correo electrónico que puede editar en esta wiki. Esta debería tener un formato de un sufijo por línea. Por ejemplo:<div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>El ejemplo anterior debería permitir las ediciones de alguien cuya dirección de correo sea loquesea@cs.stanford.edu o loquesea@stanfordalumni.org</div><b>Ingrese los dominios permitidos en el cuadro de texto que se muestra debajo y haga clic en "guardar".</b>',
+	'right-privatedomains' => 'Administrar dominios privados',
 );
 
 /** Basque (Euskara)
