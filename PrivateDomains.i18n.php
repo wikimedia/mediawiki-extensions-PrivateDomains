@@ -256,6 +256,16 @@ $messages['ia'] = array(
 	'right-privatedomains' => 'Gerer dominios private',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'privatedomains' => '非公開ドメインを管理',
+	'saveprivatedomains-success' => '非公開ドメインの変更を保存しました。',
+	'privatedomains-affiliatenamelabel' => '組織名：',
+	'right-privatedomains' => '非公開ドメインを管理',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
