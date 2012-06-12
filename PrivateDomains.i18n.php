@@ -256,6 +256,15 @@ $messages['ia'] = array(
 	'right-privatedomains' => 'Gerer dominios private',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'privatedomains' => 'Gestione domini privati',
+	'privatedomains-affiliatenamelabel' => "Nome dell'organizzazione:",
+	'right-privatedomains' => 'Gestisce domini privati',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
