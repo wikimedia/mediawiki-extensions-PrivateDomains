@@ -260,8 +260,24 @@ $messages['ia'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'privatedomains-nomanageaccess' => "Non hai diritti sufficienti per gestire i domini privati consentiti di questo wiki.
+Solo i burocrati o i membri dello staff hanno accesso.
+
+Se non hai effettuato l'accesso, probabilmente [[Special:UserLogin|dovresti]].",
 	'privatedomains' => 'Gestione domini privati',
+	'privatedomains-ifemailcontact' => 'Altrimenti, contatta [[Special:EmailUser/$1|$1]] se hai delle domande.',
+	'saveprivatedomains-success' => 'Le modifiche ai domini privati sono state salvate.',
+	'privatedomains-invalidemail' => "Spiacenti, l'accesso a questo wiki è limitato ai membri di $1.
+Se hai un indirizzo email affiliato con $1, puoi inserire o confermare l'indirizzo email nelle tue [[Special:Preferences|preferenze]].
+È comunque possibile visualizzare le pagine su questo wiki, ma non sarai in grado di modificarle.",
 	'privatedomains-affiliatenamelabel' => "Nome dell'organizzazione:",
+	'privatedomains-emailadminlabel' => "Nome dell'utente da contattare per problemi d'accesso o domande:",
+	'privatedomains-instructions' => 'Di seguito è riportato l\'elenco dei domini di posta elettronica consentiti per i contributori di questo wiki.
+Ogni riga definisce un suffisso di posta elettronica a cui viene dato l\'accesso per la modifica.
+Inserire un suffisso per ogni riga.
+Ad esempio: <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br />stanfordalumni.org</div>
+Consente a chiunque con un indirizzo di posta elettronica qualsiasi@cs.stanford.edu o qualsiasi@stanfordalumni.org di modificare le pagine.
+<b>Inserisci i domini consentiti nella casella di testo qui sotto e fai clic su "Salva".</b>',
 	'right-privatedomains' => 'Gestisce domini privati',
 );
 
