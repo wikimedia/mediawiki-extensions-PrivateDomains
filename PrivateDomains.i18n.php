@@ -67,7 +67,7 @@ $messages['be-tarask'] = array(
 	'right-privatedomains' => 'кіраваньне прыватнымі дамэнамі',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwenn-Ael
  */
@@ -120,7 +120,7 @@ Sofern Sie über eine E-Mail-Adresse dieser Domain verfügen, können Sie sie au
 Sie können weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbeiten.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Pertile
  */
@@ -136,7 +136,7 @@ $messages['es'] = array(
 	'right-privatedomains' => 'Administrar dominios privados',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -146,7 +146,7 @@ $messages['eu'] = array(
 	'right-privatedomains' => 'Domeinu pribatuak kudeatu',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  */
 $messages['fi'] = array(
@@ -157,7 +157,7 @@ $messages['fi'] = array(
 	'privatedomains-emailadminlabel' => 'Yhteystietokäyttäjänimi pääsypulmissa tai kyselyissä:',
 );
 
-/** French (Français)
+/** French (français)
  * @author Alexandre Emsenhuber
  * @author IAlex
  */
@@ -173,7 +173,7 @@ $messages['fr'] = array(
 	'right-privatedomains' => 'Gérer les domaines privés',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -232,7 +232,7 @@ To dowoli změny wot kóždeho, kotryž ma e-mejlowu adresu stozkuli@hsb.priklad
 	'right-privatedomains' => 'Priwatne domeny zarjadować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -241,7 +241,7 @@ $messages['hu'] = array(
 	'privatedomains-emailadminlabel' => 'Kapcsolattartó neve hozzáférési problémák vagy kérdések esetére:',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -298,7 +298,7 @@ $messages['lb'] = array(
 	'privatedomains-affiliatenamelabel' => 'Numm vun der Organisatioun',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -345,7 +345,7 @@ $messages['nl'] = array(
 	'right-privatedomains' => 'Private domeinen beheren',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -381,7 +381,7 @@ $messages['pms'] = array(
 	'right-privatedomains' => 'Gestì ij domini privà',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -401,7 +401,7 @@ Isto permite edições a todos aqueles com um endereço de correio electrónico 
 	'right-privatedomains' => 'Gerir domínios privados',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -416,7 +416,7 @@ $messages['ru'] = array(
 	'right-privatedomains' => 'управление частными доменами',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Verlor
  */
@@ -424,7 +424,7 @@ $messages['sr-ec'] = array(
 	'privatedomains-affiliatenamelabel' => 'Назив организације:',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
 );
