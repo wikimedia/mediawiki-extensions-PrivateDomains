@@ -50,7 +50,7 @@ $messages['af'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naam van organisasie:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -182,7 +182,7 @@ $messages['frp'] = array(
 	'right-privatedomains' => 'Administrar los domênos privâs',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -207,7 +207,7 @@ Isto permitirá as edicións de aqueles que teña un enderezo de correo electró
 	'right-privatedomains' => 'Xestionar dominios privados',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
