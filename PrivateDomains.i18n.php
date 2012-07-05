@@ -436,9 +436,11 @@ $messages['te'] = array(
 	'privatedomains-affiliatenamelabel' => 'సంస్థ యొక్క పేరు:',
 );
 
-/** Tagalog (Tagalog) */
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
 $messages['tl'] = array(
-	'privatedomains-nomanageaccess' => 'Paumanhin, walang kang sapat na mga karapatang upang pamahalaan ang mga dominyong pribado para sa wiking ito.  Tanging mga burokrato at mga kasaping tauhan ng wiki lamang ang makakapunta..Kung hindi ka nakalagda, maaaring [[Special:UserLogin|dapat]] kang lumagda.',
+	'privatedomains-nomanageaccess' => 'Paumanhin, wala kang sapat na mga karapatang upang pamahalaan ang mga dominyong pribado para sa wiking ito.  Tanging mga burokrato at mga kasaping tauhan ng wiki lamang ang makakapunta..Kung hindi ka nakalagda, maaaring [[Special:UserLogin|dapat]] kang lumagda.',
 	'privatedomains' => 'Pamahalaan ang mga Dominyong Pribado',
 	'privatedomains-ifemailcontact' => 'O kaya, mangyaring makipag-ugnayan kay [[Special:EmailUser/$1|$1]] kung mayroon kang anumang mga katanungan.',
 	'saveprivatedomains-success' => 'Sinagip ang mga pagbabago sa Mga Dominyong Pribado.',
