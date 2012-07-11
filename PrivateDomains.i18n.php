@@ -313,7 +313,7 @@ $messages['mk'] = array(
 	'right-privatedomains' => 'Раководење со приватни домени',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
