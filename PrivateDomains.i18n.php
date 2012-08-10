@@ -401,6 +401,14 @@ Isto permite edições a todos aqueles com um endereço de correio electrónico 
 	'right-privatedomains' => 'Gerir domínios privados',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'privatedomains' => 'Gestionează domeniile private',
+	'privatedomains-affiliatenamelabel' => 'Numele organizației:',
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
