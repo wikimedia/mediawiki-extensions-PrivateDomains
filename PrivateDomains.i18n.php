@@ -437,6 +437,13 @@ $messages['sr-el'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'privatedomains-affiliatenamelabel' => 'Jina la shirika:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
