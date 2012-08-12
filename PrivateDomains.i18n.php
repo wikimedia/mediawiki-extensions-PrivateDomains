@@ -291,6 +291,13 @@ $messages['ja'] = array(
 	'right-privatedomains' => '非公開ドメインを管理',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'privatedomains-affiliatenamelabel' => 'ორგანიზაციის სახელი:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
