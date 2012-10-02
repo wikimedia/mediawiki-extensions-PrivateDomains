@@ -50,7 +50,7 @@ $messages['af'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naam van organisasie:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -106,7 +106,7 @@ Hierdurch wird es allen Benutzern gestattet dieses Wiki zu bearbeiten, die über
 	'right-privatedomains' => 'Zulässige Domains festlegen und verwalten',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  * @author LWChris
  */
@@ -320,7 +320,7 @@ $messages['mk'] = array(
 	'right-privatedomains' => 'Раководење со приватни домени',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -431,7 +431,7 @@ $messages['ru'] = array(
 	'right-privatedomains' => 'управление частными доменами',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Verlor
  */
@@ -439,7 +439,7 @@ $messages['sr-ec'] = array(
 	'privatedomains-affiliatenamelabel' => 'Назив организације:',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
 );
