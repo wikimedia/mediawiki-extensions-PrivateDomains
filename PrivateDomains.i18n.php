@@ -287,7 +287,7 @@ Consente a chiunque con un indirizzo di posta elettronica qualsiasi@cs.stanford.
 $messages['ja'] = array(
 	'privatedomains' => '非公開ドメインを管理',
 	'saveprivatedomains-success' => '非公開ドメインの変更を保存しました。',
-	'privatedomains-affiliatenamelabel' => '組織名：',
+	'privatedomains-affiliatenamelabel' => '組織名:',
 	'right-privatedomains' => '非公開ドメインを管理',
 );
 
