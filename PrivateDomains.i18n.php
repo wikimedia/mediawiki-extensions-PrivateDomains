@@ -73,7 +73,7 @@ $messages['be-tarask'] = array(
  */
 $messages['br'] = array(
 	'privatedomains' => 'Merañ an domanioù prevez',
-	'privatedomains-ifemailcontact' => "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]]  m'hoc'h eus tra pe dra da c'houlenn.",
+	'privatedomains-ifemailcontact' => "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]]  m'hoc'h eus tra pe dra da c'houlenn.", # Fuzzy
 	'saveprivatedomains-success' => 'Kemmoù en domanioù prevez saveteet.',
 	'privatedomains-invalidemail' => "Ma digarezit, Miret eo ar moned d'ar wiki-mañ evit izili $1.  M'ho peus ur chomlec'h postel emezelet ouzh $1 e challit mont e-barzh pe adkarnaat ho chomlec'h postel war pajenn zibaboù ar gont [[Special:Preferences|amañ]]. Gallout a rit gwelet pajennoù ar wiki-mañ, met ne c'hallit ket kemmañ anezho.",
 	'privatedomains-affiliatenamelabel' => 'Anv an aozadur :',
@@ -439,7 +439,8 @@ $messages['sr-ec'] = array(
 	'privatedomains-affiliatenamelabel' => 'Назив организације:',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
 );
@@ -472,4 +473,3 @@ $messages['tl'] = array(
 	'privatedomains-instructions' => 'Nasa ibaba ang talaan ng mga dominyo ng e-liham na ipinapahintulot para sa mga patnugot ng wiking ito.  Bawat guhit ay nagtatalaga ng isang hulaping makakapunta para sa pamamatnugot.  Dapat itong anyuhang may isang hulapi bawat guhit.  Bilang halimbawa:<div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>Magpapahintulot ito ng mga pagbabago mula kaninuman na may adres ng e-liham na anuman@cs.stanford.edu o anuman@stanfordalumni.org</div><b>Ipasok ang pinapayagang mga dominyo sa loob ng kahon ng tekstong nasa ibaba, at pindutin ang "sagipin".</b>',
 	'right-privatedomains' => 'Mamahala ng mga nasasakupang pribado',
 );
-
