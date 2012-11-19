@@ -332,6 +332,7 @@ $messages['nb'] = array(
 	'privatedomains-affiliatenamelabel' => 'Navn på organisasjon:',
 	'privatedomains-emailadminlabel' => 'Kontakt brukernavn for tilgangsproblemer eller spørsmål:',
 	'privatedomains-instructions' => 'Under er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style="width:20%; padding:5px; border:1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div>Dette ville tillatt redigeringer fra enhver med e-postadresse hvasomhelst@cs.stanford.edu og hvasomhelst@stanfordalumni.org</div><b>Skriv inn tillatte domener i tekstboksen under og klikk «lagre».</b>',
+	'right-privatedomains' => 'Behandle private domener',
 );
 
 /** Dutch (Nederlands)
