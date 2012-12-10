@@ -349,7 +349,12 @@ $messages['nl'] = array(
 	'privatedomains-invalidemail' => "Sorry, toegang tot deze wiki is alleen toegestaan voor leden van $1. Als je een email adres hebt die verwant is met $1, kan je je email adres invoeren of bevestigen op je account voorkeuren pagina [[Special:Preferences|hier]]. Je kan nog steeds pagina's op de wiki bekijken, maar kan niet bewerken.",
 	'privatedomains-affiliatenamelabel' => 'Organisatienaam:',
 	'privatedomains-emailadminlabel' => 'Neem contact op met gebruikersnaam voor toegangsproblemen of als je vragen hebt',
-	'privatedomains-instructions' => '<br /> <br /> Onderstaande is een lijst van email domeinen toegestaan voor bewerkers op deze wiki. Elke regel wijst een email achtervoegsel toe die in staat is om deze wiki te bewerken. Formateer dit met een achtervoegsel per regel. Voorbeeld <div style="width: 20%; padding:5px; border: 1px solid grey;">cs.stanford.edu<br /> stanfordalumni.org</div> Dit zou iedereen toe moeten staan om te bewerken met het email adres whatever@cs.stanford.edu of whatever@stanfordalumni.org</div> <b>Type de toegestane domeinen in de onderstaande tekst box, en klik op "opslaan".</b>',
+	'privatedomains-instructions' => 'Onderstaande is een lijst van e-maildomeinen waar gebruikers van deze wiki een e-mailadres moeten hebben.
+Op elke regel wordt een e-mailachtervoegsel beschreven dat toegang geeft om te bewerken
+Op iedere regel mag één domein beschreven worden.
+Voorbeeld: <div style="width: 20%; padding:5px; border: 1px solid grey;">subdomein.example.com<br />nogeen.example.com</div>
+Hierdoor wordt het voor iedereen met een e-mailadres "watdanook@subdomein.example.com" of "watdonaook@nogeen.example.com mogelijk om te bewerken
+<b>Voer de toegestane e-maildomeinen in het onderstaande venster in en klik op "Opslaan".</b>',
 	'right-privatedomains' => 'Private domeinen beheren',
 );
 
