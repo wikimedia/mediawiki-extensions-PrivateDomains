@@ -342,11 +342,16 @@ $messages['nb'] = array(
  * @author Siebrand Mazeland
  */
 $messages['nl'] = array(
-	'privatedomains-nomanageaccess' => 'Sorry, maar je hebt niet genoeg rechten om privé domeinen voor deze wiki te beheren. Alleen wiki bureaucraten en staff leden hebben toegang.Als je niet ingelogd bent, zou je dat [[Special:UserLogin|moeten doen]].',
+	'privatedomains-nomanageaccess' => 'U hebt onvoldoende rechten om privédomeinen voor deze wiki te beheren.
+Alleen bureaucraten van de wiki en medewerkers hebben toegang.
+
+Als u niet bent aangemeld, [[Special:UserLogin|doe dat dan nu]].',
 	'privatedomains' => 'Privédomeinen beheren',
-	'privatedomains-ifemailcontact' => 'Anders, contacteer a.u.b. [[Special:EmailUser/$1|$1]] als je vragen hebt.',
+	'privatedomains-ifemailcontact' => 'Neem alstublieft contact op met [[Special:EmailUser/$1|$1]] als u vragen hebt.',
 	'saveprivatedomains-success' => 'De wijzigingen aan private domeinen zijn opgeslagen.',
-	'privatedomains-invalidemail' => "Sorry, toegang tot deze wiki is alleen toegestaan voor leden van $1. Als je een email adres hebt die verwant is met $1, kan je je email adres invoeren of bevestigen op je account voorkeuren pagina [[Special:Preferences|hier]]. Je kan nog steeds pagina's op de wiki bekijken, maar kan niet bewerken.",
+	'privatedomains-invalidemail' => "Toegang tot deze wiki is alleen toegestaan voor leden van $1.
+Als u een e-mailadres hebt dat verwant is aan $1, kunt u uw e-mailadres invoeren of opnieuw bevestigen in uw [[Special:Preferences|voorkeuren]].
+U kunt nog steeds pagina's op de wiki bekijken, maar u mag deze niet bewerken.",
 	'privatedomains-affiliatenamelabel' => 'Organisatienaam:',
 	'privatedomains-emailadminlabel' => 'Neem contact op met gebruikersnaam voor toegangsproblemen of als je vragen hebt',
 	'privatedomains-instructions' => 'Onderstaande is een lijst van e-maildomeinen waar gebruikers van deze wiki een e-mailadres moeten hebben.
