@@ -442,6 +442,15 @@ $messages['ru'] = array(
 	'right-privatedomains' => 'управление частными доменами',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'privatedomains' => 'පුද්ගලික වසම් කළමනාකරණය කරන්න',
+	'privatedomains-affiliatenamelabel' => 'සංවිධානයේ නම:',
+	'right-privatedomains' => 'පුද්ගලික වසම් කළමනාකරණය කරන්න',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Verlor
