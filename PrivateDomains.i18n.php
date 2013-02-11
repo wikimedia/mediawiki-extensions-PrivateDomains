@@ -295,6 +295,8 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'privatedomains' => 'პირადი დომენების მართვა',
+	'saveprivatedomains-success' => 'პირადი დომენების ცვლილებები შენახულია.',
 	'privatedomains-affiliatenamelabel' => 'ორგანიზაციის სახელი:',
 );
 
