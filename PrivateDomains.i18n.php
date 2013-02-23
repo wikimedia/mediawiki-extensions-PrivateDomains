@@ -300,6 +300,14 @@ $messages['ka'] = array(
 	'privatedomains-affiliatenamelabel' => 'ორგანიზაციის სახელი:',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'privatedomains' => '개인 도메인 관리',
+	'privatedomains-affiliatenamelabel' => '조직 이름:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
