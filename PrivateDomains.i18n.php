@@ -120,6 +120,13 @@ Sofern Sie über eine E-Mail-Adresse dieser Domain verfügen, können Sie sie au
 Sie können weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbeiten.',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'privatedomains-affiliatenamelabel' => 'Name of organisation:',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Pertile
