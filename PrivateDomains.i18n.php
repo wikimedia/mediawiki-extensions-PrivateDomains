@@ -35,9 +35,26 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'privatedomains-ifemailcontact' => 'Parameters:
+* $1 - email domain
+See also:
+* {{msg-mw|privatedomains-emailadminlabel}} - label for "email domain" input box',
+	'privatedomains-invalidemail' => 'Used as error message. Parameters:
+* $1 - affiliate name
+See also:
+* {{msg-mw|privatedomains-affiliatenamelabel}} - label for "affiliate name" input box',
+	'privatedomains-affiliatenamelabel' => 'Used as label for "affiliate name" input box.
+
+See also:
+* {{msg-mw|Privatedomains-invalidemail}}',
+	'privatedomains-emailadminlabel' => 'Used as label for "email domain" input box.
+
+See also:
+* {{msg-mw|Privatedomains-ifemailcontact}}',
 	'right-privatedomains' => '{{doc-right|privatedomains}}',
 );
 
