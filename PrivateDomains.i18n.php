@@ -39,10 +39,14 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'privatedomains' => '{{doc-special|PrivateDomains}}',
 	'privatedomains-ifemailcontact' => 'Parameters:
 * $1 - email domain
 See also:
 * {{msg-mw|privatedomains-emailadminlabel}} - label for "email domain" input box',
+	'saveprivatedomains-success' => 'Used as success message in [[Special:PrivateDomains]].
+
+This message means "Changes of private domains has been saved (successfully)".',
 	'privatedomains-invalidemail' => 'Used as error message. Parameters:
 * $1 - affiliate name
 See also:
@@ -55,6 +59,7 @@ See also:
 
 See also:
 * {{msg-mw|Privatedomains-ifemailcontact}}',
+	'privatedomains-instructions' => 'Used as instruction message for the "domains" textarea in the "private domains" form in [[Special:PrivateDomains]].',
 	'right-privatedomains' => '{{doc-right|privatedomains}}',
 );
 
