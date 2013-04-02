@@ -39,6 +39,7 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'privatedomains-nomanageaccess' => 'Unused at this time.',
 	'privatedomains' => '{{doc-special|PrivateDomains}}',
 	'privatedomains-ifemailcontact' => 'Parameters:
 * $1 - email domain
