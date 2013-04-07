@@ -34,10 +34,7 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
 	'right-privatedomains' => 'Manage private domains',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author Shirayuki
  * @author Umherirrender
  */
