@@ -387,7 +387,7 @@ Alleen bureaucraten van de wiki en medewerkers hebben toegang.
 
 Als u niet bent aangemeld, [[Special:UserLogin|doe dat dan nu]].',
 	'privatedomains' => 'Privédomeinen beheren',
-	'privatedomains-ifemailcontact' => 'Neem alstublieft contact op met [[Special:EmailUser/$1|$1]] als u vragen hebt.',
+	'privatedomains-ifemailcontact' => 'Neem contact op met [[Special:EmailUser/$1|$1]] als u vragen hebt.',
 	'saveprivatedomains-success' => 'De wijzigingen aan private domeinen zijn opgeslagen.',
 	'privatedomains-invalidemail' => "Toegang tot deze wiki is alleen toegestaan voor leden van $1.
 Als u een e-mailadres hebt dat verwant is aan $1, kunt u uw e-mailadres invoeren of opnieuw bevestigen in uw [[Special:Preferences|voorkeuren]].
