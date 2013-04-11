@@ -106,6 +106,7 @@ $messages['br'] = array(
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Kghbln
  * @author LWChris
  */
@@ -121,12 +122,23 @@ Sofern du über eine E-Mail-Adresse dieser Domain verfügst, kannst du sie auf d
 Du kannst weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbeiten.',
 	'privatedomains-affiliatenamelabel' => 'Name der Organisation:',
 	'privatedomains-emailadminlabel' => 'Der Name des Benutzers, der im Fall von Zugangsproblemen oder Fragen kontaktiert werden kann:',
-	'privatedomains-instructions' => 'Unterhalb befindet sich die Liste der zulässigen Domains zu diesem Wiki. Benutzer die E-Mail-Adresse dieser Domains besitzen, dürfen dieses Wiki bearbeiten.
+	'privatedomains-instructions' => 'Unten befindet sich die Liste der zulässigen Domains für Benutzer dieses Wikis.
 Jede Zeile gibt den Domainteil einer E-Mail-Adresse an, die zum Bearbeiten berechtigt.
 Beispiel:<div style="width: 20%; padding:5px; border: 1px solid grey;">de.beispiel.org<br />beispiel.de</div>
-Hierdurch wird es allen Benutzern gestattet dieses Wiki zu bearbeiten, die über eine E-Mail wie ‚xyz@de.beispiel.org‘ oder ‚xyz@beispiel.de‘ verfügen.
+Hierdurch wird es allen Benutzern gestattet, dieses Wiki zu bearbeiten, die über eine E-Mail wie xyz@de.beispiel.org oder xyz@beispiel.de verfügen.
 <b>Die zulässigen Domains bitte im folgenden Textfeld zeilenweise angeben und danach auf „Speichern“ klicken.</b>',
 	'right-privatedomains' => 'Zulässige Domains festlegen und verwalten',
+);
+
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Geitost
+ */
+$messages['de-ch'] = array(
+	'privatedomains-instructions' => 'Unten befindet sich die Liste der zulässigen Domains für Benutzer dieses Wikis.
+Jede Zeile gibt den Domainteil einer E-Mail-Adresse an, die zum Bearbeiten berechtigt.
+Beispiel:<div style="width: 20%; padding:5px; border: 1px solid grey;">de.beispiel.org<br />beispiel.de</div>
+Hierdurch wird es allen Benutzern gestattet, dieses Wiki zu bearbeiten, die über ein E-Mail wie xyz@de.beispiel.org oder xyz@beispiel.de verfügen.
+<b>Die zulässigen Domains bitte im folgenden Textfeld zeilenweise angeben und danach auf «Speichern» klicken.</b>',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
