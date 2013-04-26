@@ -479,6 +479,15 @@ $messages['ro'] = array(
 	'privatedomains-affiliatenamelabel' => 'Numele organizației:',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'privatedomains' => 'Gestisce le dominie private',
+	'privatedomains-affiliatenamelabel' => "Nome de l'organizzazzione:",
+	'right-privatedomains' => 'Gestisce le dominie private',
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
