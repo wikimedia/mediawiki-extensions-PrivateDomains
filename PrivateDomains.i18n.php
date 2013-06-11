@@ -512,7 +512,9 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'privatedomains' => 'Gestisce le dominie private',
+	'saveprivatedomains-success' => 'Cangiaminde sus a le dominie private reggistrate.',
 	'privatedomains-affiliatenamelabel' => "Nome de l'organizzazzione:",
+	'privatedomains-emailadminlabel' => "Condatte l'utende pe le probbleme de accesse o de inderrogaziune:",
 	'right-privatedomains' => 'Gestisce le dominie private',
 );
 
