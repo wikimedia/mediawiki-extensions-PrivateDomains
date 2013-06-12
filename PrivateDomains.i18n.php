@@ -511,7 +511,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'privatedomains-nomanageaccess' => "Non ge tìne abbastanze deritte pe gestì le dominie private permesse pe sta uicchi.
+Sulamende le buracrate de uicchi e le membre d'u staff onne accesse.
+
+Ce tu non g'è trasute, probbabbilmende [[Special:UserLogin|l'avissa fà]].",
 	'privatedomains' => 'Gestisce le dominie private',
+	'privatedomains-ifemailcontact' => 'Altrimende, pe piacere condatte [[Special:EmailUser/$1|$1]] ce tìne domande da fà.',
 	'saveprivatedomains-success' => 'Cangiaminde sus a le dominie private reggistrate.',
 	'privatedomains-affiliatenamelabel' => "Nome de l'organizzazzione:",
 	'privatedomains-emailadminlabel' => "Condatte l'utende pe le probbleme de accesse o de inderrogaziune:",
