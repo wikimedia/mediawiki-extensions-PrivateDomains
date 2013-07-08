@@ -518,8 +518,17 @@ Ce tu non g'è trasute, probbabbilmende [[Special:UserLogin|l'avissa fà]].",
 	'privatedomains' => 'Gestisce le dominie private',
 	'privatedomains-ifemailcontact' => 'Altrimende, pe piacere condatte [[Special:EmailUser/$1|$1]] ce tìne domande da fà.',
 	'saveprivatedomains-success' => 'Cangiaminde sus a le dominie private reggistrate.',
+	'privatedomains-invalidemail' => "Ne dispiace, l'accesse a sta uicchi jè limitate a le membre de $1.
+Ce tu è 'n'indirizze email legate cu $1, tu puè sckaffà o cofermà arrete l'indirizze email tune sus 'a [[Special:Preferences|pàgene de le preferenze d'u cunde tune]].
+Tu puè angore 'ndrucà le pàggene sus a sta uicchi, ma non ge le puè cangià.",
 	'privatedomains-affiliatenamelabel' => "Nome de l'organizzazzione:",
 	'privatedomains-emailadminlabel' => "Condatte l'utende pe le probbleme de accesse o de inderrogaziune:",
+	'privatedomains-instructions' => "Aqquà sotte stè l'elenghe de le dominie de l'email permesse pe le cangiature de sta uicchi.
+Ogne linèe definisce 'nu suffisse de l'email ca tène l'accesse pe cangià.
+Quiste avessa essere formattate cu 'n suffisse pe linèe.
+Pe esembie: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>
+Quiste permette le cangiaminde da cengate tène 'n'indirizze email cu @cs.stanford.edu o @stanfordalumni.org
+<b>Sckaffe le dominie permesse jndr'à buatte d'u teste aqquà sotte, e cazze \"reggìstre\".</b>",
 	'right-privatedomains' => 'Gestisce le dominie private',
 );
 
