@@ -570,6 +570,13 @@ $messages['sr-el'] = array(
 	'privatedomains-affiliatenamelabel' => 'Naziv organizacije:',
 );
 
+/** Swedish (svenska)
+ * @author Jopparn
+ */
+$messages['sv'] = array(
+	'privatedomains-affiliatenamelabel' => 'Namn på organisationen:',
+);
+
 /** Swahili (Kiswahili)
  * @author Stephenwanjau
  */
