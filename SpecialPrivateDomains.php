@@ -54,21 +54,22 @@ class PrivateDomains extends SpecialPage {
 	 * @param $par Mixed: parameter passed to the page or null
 	 */
 	public function execute( $par ) {
-		global $wgRequest;
+		$request = $this->getRequest();
 
 		$this->setHeaders();
 
 		$msg = '';
 
-		if( $wgRequest->wasPosted() ) {
-			if ( $wgRequest->getText( 'action' ) == 'submit' ) {
-				$this->saveParam( 'privatedomains-domains', $wgRequest->getText( 'listdata' ) );
-				$this->saveParam( 'privatedomains-affiliatename', $wgRequest->getText( 'affiliateName' ) );
-				$this->saveParam( 'privatedomains-emailadmin', $wgRequest->getText( 'optionalPrivateDomainsEmail' ) );
+		if ( $request->wasPosted() ) {
+			if ( $request->getText( 'action' ) == 'submit' ) {
+				$this->saveParam( 'privatedomains-domains', $request->getText( 'listdata' ) );
+				$this->saveParam( 'privatedomains-affiliatename', $request->getText( 'affiliateName' ) );
+				$this->saveParam( 'privatedomains-emailadmin', $request->getText( 'optionalPrivateDomainsEmail' ) );
 
-				$msg = wfMsgHtml( 'saveprivatedomains-success' );
+				$msg = $this->msg( 'saveprivatedomains-success' )->text();
 			}
 		}
+
 		$this->mainForm( $msg );
 	}
 
@@ -76,46 +77,49 @@ class PrivateDomains extends SpecialPage {
 	 * Shows the main form in Special:PrivateDomains
 	 */
 	private function mainForm( $msg ) {
-		global $wgUser, $wgOut;
+		$out = $this->getOutput();
+		$user = $this->getUser();
 
 		$titleObj = SpecialPage::getTitleFor( 'PrivateDomains' );
 		$action = $titleObj->escapeLocalURL( 'action=submit' );
 
 		// Can the user execute the action?
-		if( !$wgUser->isAllowed( 'privatedomains' ) ) {
+		if ( !$user->isAllowed( 'privatedomains' ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
 
 		// Is the database in read-only mode?
-		if( wfReadOnly() ) {
-			$wgOut->readOnlyPage();
+		if ( wfReadOnly() ) {
+			$out->readOnlyPage();
 			return;
 		}
 
 		// Is the user blocked?
-		if( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
+		if ( $user->isBlocked() ) {
+			$out->blockedPage();
 			return;
 		}
 
+		// If there was an error message, display it.
 		if ( $msg != '' ) {
-			$wgOut->addHTML(
+			$out->addHTML(
 				'<div class="errorbox" style="width:92%;"><h2>' . $msg .
 				'</h2></div><br /><br /><br />'
 			);
 		}
 
-		$wgOut->addHTML(
+		// Render the main form for changing PrivateDomains' settings.
+		$out->addHTML(
 			'<form name="privatedomains" id="privatedomains" method="post" action="' . $action . '">
-		<label for="affiliateName"><br />' . wfMsg( 'privatedomains-affiliatenamelabel' ) . ' </label>
+		<label for="affiliateName"><br />' . $this->msg( 'privatedomains-affiliatenamelabel' )->text() . ' </label>
 		<input type="text" name="affiliateName" width="30" value="' . $this->getParam( 'privatedomains-affiliatename' ) . '" />
-		<label for="optionalEmail"><br />' . wfMsg( 'privatedomains-emailadminlabel' ) . ' </label>
+		<label for="optionalEmail"><br />' . $this->msg( 'privatedomains-emailadminlabel' )->text() . ' </label>
 		<input type="text" name="optionalPrivateDomainsEmail" value="' . $this->getParam( 'privatedomains-emailadmin' ) . '" />' );
-		$wgOut->addHTML( wfMsg( 'privatedomains-instructions' ) );
-		$wgOut->addHTML( '<textarea name="listdata" rows="10" cols="40">' . $this->getParam( 'privatedomains-domains' ) . '</textarea>' );
-		$wgOut->addHTML( '<br /><input type="submit" name="saveList" value="' . wfMsgHtml( 'saveprefs' ) . '" />' );
-		$wgOut->addHTML( '</form>' );
+		$out->addWikiMsg( 'privatedomains-instructions' );
+		$out->addHTML( '<textarea name="listdata" rows="10" cols="40">' . $this->getParam( 'privatedomains-domains' ) . '</textarea>' );
+		$out->addHTML( '<br /><input type="submit" name="saveList" value="' . $this->msg( 'saveprefs' )->plain() . '" />' );
+		$out->addHTML( '</form>' );
 	}
 
 	/**
@@ -125,28 +129,29 @@ class PrivateDomains extends SpecialPage {
 	 * message if user doesn't have the permission to access the special page.
 	 */
 	function displayRestrictionError() {
-		global $wgUser, $wgLang, $wgOut;
+		$lang = $this->getLanguage();
+		$out = $this->getOutput();
 
-		$wgOut->setPageTitle( wfMsgHtml( 'badaccess' ) );
-		$wgOut->setHTMLTitle( wfMsgHtml( 'errorpagetitle' ) );
-		$wgOut->setRobotPolicy( 'noindex,nofollow' );
-		$wgOut->setArticleRelated( false );
-		$wgOut->mBodytext = '';
+		$out->setPageTitle( $this->msg( 'badaccess' )->text() );
+		$out->setHTMLTitle( $this->msg( 'errorpagetitle' )->text() );
+		$out->setRobotPolicy( 'noindex,nofollow' );
+		$out->setArticleRelated( false );
+		$out->mBodytext = '';
 
 		$groups = array_map( array( 'User', 'makeGroupLinkWiki' ),
 			User::getGroupsWithPermission( $this->mRestriction ) );
 		$privatedomains_emailadmin = PrivateDomains::getParam( 'privatedomains-emailadmin' );
-		if( $groups ) {
-			$wgOut->addWikiMsg( 'badaccess-groups',
-				$wgLang->commaList( $groups ),
+		if ( $groups ) {
+			$out->addWikiMsg( 'badaccess-groups',
+				$lang->commaList( $groups ),
 				count( $groups ) );
-			if( $privatedomains_emailadmin != '' ) {
-				$wgOut->addWikiMsg( 'privatedomains-ifemailcontact', $privatedomains_emailadmin );
+			if ( $privatedomains_emailadmin != '' ) {
+				$out->addWikiMsg( 'privatedomains-ifemailcontact', $privatedomains_emailadmin );
 			}
 		} else {
-			$wgOut->addWikiMsg( 'badaccess-group0' );
+			$out->addWikiMsg( 'badaccess-group0' );
 		}
-		$wgOut->returnToMain();
+		$out->returnToMain();
 	}
 
 }

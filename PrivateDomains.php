@@ -5,7 +5,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.1
+ * @version 1.2
  * @author Inez Korczyński <korczynski@gmail.com>
  * @author Jack Phoenix <jack@countervandalism.net>
  * @link http://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
@@ -19,7 +19,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'PrivateDomains',
-	'version' => '1.1',
+	'version' => '1.2',
 	'author' => array( 'Inez Korczyński', 'Jack Phoenix' ),
 	'description' => 'Allows to restrict editing to users with a certain e-mail address',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PrivateDomains',
