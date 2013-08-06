@@ -35,6 +35,7 @@ This would allow edits from anyone with the e-mail address whatever@cs.stanford.
 );
 
 /** Message documentation (Message documentation)
+ * @author Nemo bis
  * @author Shirayuki
  * @author Umherirrender
  */
@@ -42,7 +43,7 @@ $messages['qqq'] = array(
 	'privatedomains-nomanageaccess' => 'Unused at this time.',
 	'privatedomains' => '{{doc-special|PrivateDomains}}',
 	'privatedomains-ifemailcontact' => 'Parameters:
-* $1 - email domain
+* $1 - username to be contacted by email; supports GENDER
 See also:
 * {{msg-mw|privatedomains-emailadminlabel}} - label for "email domain" input box',
 	'saveprivatedomains-success' => 'Used as success message in [[Special:PrivateDomains]].
