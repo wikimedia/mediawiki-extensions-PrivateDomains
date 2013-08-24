@@ -24,7 +24,7 @@ If you have an e-mail address affiliated with $1, you can enter or reconfirm you
 You can still view pages on this wiki, but you will be unable to edit.',
 	'privatedomains-affiliatenamelabel' => 'Name of organization:',
 	'privatedomains-emailadminlabel' => 'Contact username for access problems or queries:',
-	'privatedomains-instructions' => "Below is the list of e-mail domains allowed for editors of this wiki.
+	'privatedomains-instructions' => "Below is the list of email domains allowed for editors of this wiki.
 Each line designates an e-mail suffix that is given access for editing.
 This should be formatted with one suffix per line.
 For example:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>
