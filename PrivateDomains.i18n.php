@@ -20,15 +20,15 @@ If you are not logged in, you probably [[Special:UserLogin|should]].',
 	'privatedomains-ifemailcontact' => 'Otherwise, please contact [[Special:EmailUser/$1|$1]] if you have any questions.',
 	'saveprivatedomains-success' => 'Private domains changes saved.',
 	'privatedomains-invalidemail' => 'Sorry, access to this wiki is restricted to members of $1.
-If you have an e-mail address affiliated with $1, you can enter or reconfirm your e-mail address on your [[Special:Preferences|account preference page]].
+If you have an email address affiliated with $1, you can enter or reconfirm your email address on your [[Special:Preferences|account preference page]].
 You can still view pages on this wiki, but you will be unable to edit.',
 	'privatedomains-affiliatenamelabel' => 'Name of organization:',
 	'privatedomains-emailadminlabel' => 'Contact username for access problems or queries:',
 	'privatedomains-instructions' => "Below is the list of email domains allowed for editors of this wiki.
-Each line designates an e-mail suffix that is given access for editing.
+Each line designates an email suffix that is given access for editing.
 This should be formatted with one suffix per line.
 For example:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>
-This would allow edits from anyone with the e-mail address whatever@cs.stanford.edu or whatever@stanfordalumni.org
+This would allow edits from anyone with the email address whatever@cs.stanford.edu or whatever@stanfordalumni.org
 <b>Enter the allowed domains in the text box below, and click \"save\".</b>",
 	// For Special:ListGroupRights
 	'right-privatedomains' => 'Manage private domains',
