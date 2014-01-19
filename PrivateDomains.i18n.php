@@ -344,11 +344,15 @@ $messages['ka'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
 	'privatedomains' => '개인 도메인 관리',
+	'saveprivatedomains-success' => '개인 도메인 바뀜이 저장됨.',
 	'privatedomains-affiliatenamelabel' => '조직 이름:',
+	'privatedomains-emailadminlabel' => '접속 문제 및 쿼리 때문에 사용자이름에 문의하기:',
+	'right-privatedomains' => '개인 도메인 관리',
 );
 
 /** Colognian (Ripoarisch)
