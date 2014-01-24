@@ -189,6 +189,16 @@ $messages['eu'] = array(
 	'right-privatedomains' => 'Domeinu pribatuak kudeatu',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'privatedomains' => 'مدیریت دامنه‌های خصوصی',
+	'saveprivatedomains-success' => 'تغییرات دامنه‌های خصوصی دخیره شد.',
+	'privatedomains-affiliatenamelabel' => 'نام سازمان:',
+	'right-privatedomains' => 'مدیریت دامنه‌های خصوصی',
+);
+
 /** Finnish (suomi)
  * @author Centerlink
  */
