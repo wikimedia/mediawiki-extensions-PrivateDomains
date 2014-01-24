@@ -81,7 +81,7 @@ class PrivateDomains extends SpecialPage {
 		$user = $this->getUser();
 
 		$titleObj = SpecialPage::getTitleFor( 'PrivateDomains' );
-		$action = $titleObj->escapeLocalURL( 'action=submit' );
+		$action = htmlspecialchars( $titleObj->getLocalURL( 'action=submit' ) );
 
 		// Can the user execute the action?
 		if ( !$user->isAllowed( 'privatedomains' ) ) {
