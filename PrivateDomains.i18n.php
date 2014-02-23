@@ -194,8 +194,10 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'privatedomains' => 'مدیریت دامنه‌های خصوصی',
+	'privatedomains-ifemailcontact' => 'در غیر این صورت، اگر هرگونه سوالی دارید با [[Special:کاربر رایانامه/$1|$1]] لطفاً تماس بگیرید.', # Fuzzy
 	'saveprivatedomains-success' => 'تغییرات دامنه‌های خصوصی دخیره شد.',
 	'privatedomains-affiliatenamelabel' => 'نام سازمان:',
+	'privatedomains-emailadminlabel' => 'تماس نام کاربری برای دسترسی مشکلات یا پرسش‌ها:',
 	'right-privatedomains' => 'مدیریت دامنه‌های خصوصی',
 );
 
