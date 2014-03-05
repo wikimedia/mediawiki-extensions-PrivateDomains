@@ -672,3 +672,14 @@ $messages['uk'] = array(
 <b>Введіть дозволені домени у текстовому полі нижче і натисніть "Зберегти".</b>',
 	'right-privatedomains' => 'Керування приватними доменами',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'privatedomains-nomanageaccess' => '您并无足够权限管理用于此wiki的允许私有域名。只有wiki行政员和工作人员组拥有权限。
+如果您未登录，您应该[[Special:UserLogin|点此登录]]。',
+	'privatedomains' => '管理私有域名',
+	'privatedomains-ifemailcontact' => '否则，如果您有任何问题请联络[[Special:EmailUser/$1|$1]]。',
+	'saveprivatedomains-success' => '私有域名更改已保存。',
+);
