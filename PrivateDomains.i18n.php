@@ -683,4 +683,5 @@ $messages['zh-hans'] = array(
 	'privatedomains' => '管理私有域名',
 	'privatedomains-ifemailcontact' => '否则，如果您有任何问题请联络[[Special:EmailUser/$1|$1]]。',
 	'saveprivatedomains-success' => '私有域名更改已保存。',
+	'privatedomains-affiliatenamelabel' => '组织名称：',
 );
