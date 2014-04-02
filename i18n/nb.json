@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nghtwlkr"
+        ]
+    },
+    "privatedomains-nomanageaccess": "Beklager, du har ikke nok rettigheter til å håndtere tillatte private domener for denne wikien. Kun wikibyråkrater og stabsmedlemmer har tilgang.Du bør [[Special:UserLogin|logge inn]] om du ikke alt har gjort det.",
+    "privatedomains": "Håndter private domener",
+    "privatedomains-ifemailcontact": "Hvis ikke, kontakt [[Special:EmailUser/$1|$1]] om du har spørsmål.",
+    "saveprivatedomains-success": "Endringer for private domener lagret.",
+    "privatedomains-invalidemail": "Beklager, tilgang til denne wikien er begrenset til medlemmer av $1. Om du har en e-postadresse tilknyttet $1 kan du skrive den inn eller bekrefte den på din side for [[Special:Preferences|kontoinnstillinger]]. Du kan fortsatt se sidene på denne wikien, men du kan ikke redigere dem.",
+    "privatedomains-affiliatenamelabel": "Navn på organisasjon:",
+    "privatedomains-emailadminlabel": "Kontakt brukernavn for tilgangsproblemer eller spørsmål:",
+    "privatedomains-instructions": "Under er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style=\"width:20%; padding:5px; border:1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div>Dette ville tillatt redigeringer fra enhver med e-postadresse hvasomhelst@cs.stanford.edu og hvasomhelst@stanfordalumni.org</div><b>Skriv inn tillatte domener i tekstboksen under og klikk «lagre».</b>",
+    "right-privatedomains": "Behandle private domener"
+}

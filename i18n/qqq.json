@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nemo bis",
+            "Shirayuki",
+            "Umherirrender"
+        ]
+    },
+    "privatedomains-nomanageaccess": "Unused at this time.",
+    "privatedomains": "{{doc-special|PrivateDomains}}",
+    "privatedomains-ifemailcontact": "Parameters:\n* $1 - username to be contacted by email; supports GENDER\nSee also:\n* {{msg-mw|privatedomains-emailadminlabel}} - label for \"email domain\" input box",
+    "saveprivatedomains-success": "Used as success message in [[Special:PrivateDomains]].\n\nThis message means \"Changes of private domains has been saved (successfully)\".",
+    "privatedomains-invalidemail": "Used as error message. Parameters:\n* $1 - affiliate name\nSee also:\n* {{msg-mw|privatedomains-affiliatenamelabel}} - label for \"affiliate name\" input box",
+    "privatedomains-affiliatenamelabel": "Used as label for \"affiliate name\" input box.\n\nSee also:\n* {{msg-mw|Privatedomains-invalidemail}}",
+    "privatedomains-emailadminlabel": "Used as label for \"email domain\" input box.\n\nSee also:\n* {{msg-mw|Privatedomains-ifemailcontact}}",
+    "privatedomains-instructions": "Used as instruction message for the \"domains\" textarea in the \"private domains\" form in [[Special:PrivateDomains]].",
+    "right-privatedomains": "{{doc-right|privatedomains}}"
+}

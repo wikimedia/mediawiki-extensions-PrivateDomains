@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "privatedomains-nomanageaccess": "Non ten os dereitos necesarios para xestionar os dominios privados deste wiki.\nSó os burócratas do wiki e os membros do persoal teñen acceso.\n\nSe non accedeu ao sistema, probabelmente [[Special:UserLogin|debería]] facelo.",
+    "privatedomains": "Xestionar os dominios privados",
+    "privatedomains-ifemailcontact": "Se non, póñase en contacto con [[Special:EmailUser/$1|$1]] se ten algunha dúbida.",
+    "saveprivatedomains-success": "Gardáronse os cambios feitos nos dominios privados.",
+    "privatedomains-invalidemail": "Sentímolo, o acceso a este wiki está restrinxido aos membros de $1.\nSe ten un enderezo de correo electrónico afiliado con $1, pode entrar ou confirmar o seu enderezo de correo electrónico na [[Special:Preferences|páxina de preferencias da súa conta]].\nAínda pode ver páxinas neste wiki, pero non será capaz de editalas.",
+    "privatedomains-affiliatenamelabel": "Nome da organización:",
+    "privatedomains-emailadminlabel": "Nome de usuario de contacto para os problemas de acceso ou consultas:",
+    "privatedomains-instructions": "A continuación está a lista de dominios de correo electrónico autorizados para os editores deste wiki.\nCada liña designa un sufixo que dá acceso á edición.\nA lista debe estar ordenada de xeito que haxa un sufixo por liña.\nPor exemplo: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>\nIsto permitirá as edicións de aqueles que teña un enderezo de correo electrónico o_que_sexa@cs.stanford.edu ou o_que_sexa@stanfordalumni.org\n<b>Insira os dominios autorizados no cadro de texto de embaixo e prema en \"Gardar\".</b>",
+    "right-privatedomains": "Xestionar dominios privados"
+}

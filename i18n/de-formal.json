@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "LWChris"
+        ]
+    },
+    "privatedomains-nomanageaccess": "Sie haben nicht die Berechtigung zulässige Domains für dieses Wiki festzulegen sowie zu verwalten. Nur Benutzer mit der Berechtigung „privatedomains“ können dies.\n\nSofern Sie lediglich nicht angemeldet sind, können Sie [[Special:UserLogin|hier machen]].",
+    "privatedomains-ifemailcontact": "Ansonsten wenden Sie sich bitte im Fall von Fragen an Benutzer [[Special:EmailUser/$1|$1]].",
+    "privatedomains-invalidemail": "Der Zugang zu diesem Wiki ist auf Personen mit einer E-Mail-Adresse der Domain $1 beschränkt.\nSofern Sie über eine E-Mail-Adresse dieser Domain verfügen, können Sie sie auf der Spezialseite [[Special:Preferences|Einstellungen]] angeben und bestätigen oder ändern und erneut bestätigen.\nSie können weiterhin Seiten in diesem Wiki ansehen, sie allerdings nicht bearbeiten."
+}

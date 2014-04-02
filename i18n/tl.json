@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "AnakngAraw"
+        ]
+    },
+    "privatedomains-nomanageaccess": "Paumanhin, wala kang sapat na mga karapatang upang pamahalaan ang mga dominyong pribado para sa wiking ito.  Tanging mga burokrato at mga kasaping tauhan ng wiki lamang ang makakapunta..Kung hindi ka nakalagda, maaaring [[Special:UserLogin|dapat]] kang lumagda.",
+    "privatedomains": "Pamahalaan ang mga Dominyong Pribado",
+    "privatedomains-ifemailcontact": "O kaya, mangyaring makipag-ugnayan kay [[Special:EmailUser/$1|$1]] kung mayroon kang anumang mga katanungan.",
+    "saveprivatedomains-success": "Sinagip ang mga pagbabago sa Mga Dominyong Pribado.",
+    "privatedomains-invalidemail": "Paumahin, nakalaan lamang ang pagpasok sa wiking para sa mga kasapi ng $1.  Kung mayroon kang adres ng e-liham na may kaugnayan sa $1, maipapasok mo o muling patunayan ang adres mo ng e-liham sa pahina ng mga nais mo sa iyong akawnt [[Special:Preferences|dito]]. Maaari mo pa ring tingnan ang mga pahina sa wiking ito, subalit hindi ka makapamamatnugot.",
+    "privatedomains-affiliatenamelabel": "Pangalan ng organisasyon:",
+    "privatedomains-emailadminlabel": "Makipag-ugnayan sa pangalan ng tagagamit para sa mga suliranin sa pagpunta o mga tanong:",
+    "privatedomains-instructions": "Nasa ibaba ang talaan ng mga dominyo ng e-liham na ipinapahintulot para sa mga patnugot ng wiking ito.  Bawat guhit ay nagtatalaga ng isang hulaping makakapunta para sa pamamatnugot.  Dapat itong anyuhang may isang hulapi bawat guhit.  Bilang halimbawa:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div>Magpapahintulot ito ng mga pagbabago mula kaninuman na may adres ng e-liham na anuman@cs.stanford.edu o anuman@stanfordalumni.org</div><b>Ipasok ang pinapayagang mga dominyo sa loob ng kahon ng tekstong nasa ibaba, at pindutin ang \"sagipin\".</b>",
+    "right-privatedomains": "Mamahala ng mga nasasakupang pribado"
+}

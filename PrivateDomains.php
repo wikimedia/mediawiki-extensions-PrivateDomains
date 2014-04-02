@@ -5,7 +5,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2
  * @author Inez Korczyński <korczynski@gmail.com>
  * @author Jack Phoenix <jack@countervandalism.net>
  * @link http://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
@@ -19,7 +18,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'PrivateDomains',
-	'version' => '1.2',
+	'version' => '1.3.0',
 	'author' => array( 'Inez Korczyński', 'Jack Phoenix' ),
 	'description' => 'Allows to restrict editing to users with a certain e-mail address',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PrivateDomains',
@@ -28,6 +27,7 @@ $wgExtensionCredits['specialpage'][] = array(
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['PrivateDomains'] = $dir . 'SpecialPrivateDomains.php';
+$wgMessagesDirs['PrivateDomains'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['PrivateDomains'] = $dir . 'PrivateDomains.i18n.php';
 $wgSpecialPages['PrivateDomains'] = 'PrivateDomains';
 // Special page group for MW 1.13+

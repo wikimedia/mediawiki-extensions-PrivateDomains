@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Geitost"
+        ]
+    },
+    "privatedomains-instructions": "Unten befindet sich die Liste der zulässigen Domains für Benutzer dieses Wikis.\nJede Zeile gibt den Domainteil einer E-Mail-Adresse an, die zum Bearbeiten berechtigt.\nBeispiel:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">de.beispiel.org<br />beispiel.de</div>\nHierdurch wird es allen Benutzern gestattet, dieses Wiki zu bearbeiten, die über ein E-Mail wie xyz@de.beispiel.org oder xyz@beispiel.de verfügen.\n<b>Die zulässigen Domains bitte im folgenden Textfeld zeilenweise angeben und danach auf «Speichern» klicken.</b>"
+}

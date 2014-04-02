@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Inez Korczyński <korczynski@gmail.com>"
+        ]
+    },
+    "privatedomains-nomanageaccess": "You do not have enough rights to manage the allowed private domains for this wiki.\nOnly wiki bureaucrats and staff members have access.\n\nIf you are not logged in, you probably [[Special:UserLogin|should]].",
+    "privatedomains": "Manage private domains",
+    "privatedomains-ifemailcontact": "Otherwise, please contact [[Special:EmailUser/$1|$1]] if you have any questions.",
+    "saveprivatedomains-success": "Private domains changes saved.",
+    "privatedomains-invalidemail": "Sorry, access to this wiki is restricted to members of $1.\nIf you have an email address affiliated with $1, you can enter or reconfirm your email address on your [[Special:Preferences|account preference page]].\nYou can still view pages on this wiki, but you will be unable to edit.",
+    "privatedomains-affiliatenamelabel": "Name of organization:",
+    "privatedomains-emailadminlabel": "Contact username for access problems or queries:",
+    "privatedomains-instructions": "Below is the list of email domains allowed for editors of this wiki.\nEach line designates an email suffix that is given access for editing.\nThis should be formatted with one suffix per line.\nFor example:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>\nThis would allow edits from anyone with the email address whatever@cs.stanford.edu or whatever@stanfordalumni.org\n<b>Enter the allowed domains in the text box below, and click \"save\".</b>",
+    "right-privatedomains": "Manage private domains"
+}

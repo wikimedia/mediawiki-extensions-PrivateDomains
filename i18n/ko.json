@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Priviet",
+            "아라"
+        ]
+    },
+    "privatedomains-nomanageaccess": "이 위키의 허용된 개인 도메인을 관리할 권한이 부족합니다.\n\n로그인 상태가 아니라면[[Special:UserLogin|로그인]]을 해주세요.",
+    "privatedomains": "개인 도메인 관리",
+    "privatedomains-ifemailcontact": "질문이 있으면 [[Special:EmailUser/$1|$1]] 사용자에게 문의해 주세요.",
+    "saveprivatedomains-success": "개인 도메인 바뀜이 저장됨.",
+    "privatedomains-invalidemail": "죄송합니다. 이 위키에 접근 할 수 있는 사용자는 $1 구성원으로 제한하고 있습니다.\n$1와 연결된 이메일 주소를 갖고 있다면 [[Special:Preferences|계정 환경 설정 페이지]]에서 당신의 이메일 주소를 입력하거나 다시 확인할 수 있습니다.",
+    "privatedomains-affiliatenamelabel": "조직 이름:",
+    "privatedomains-emailadminlabel": "접속 문제 및 쿼리 때문에 사용자이름에 문의하기:",
+    "privatedomains-instructions": "아래는 이 위키의 편집자에게 허용된 이메일 도메인 목록입니다.\n각각의 줄은 편집에 대해 주어진 이메일의 접미사를 나타냅니다.\n한 줄에 하나의 접미사로 형식이 설정되어 있습니다.\n예시: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>\n이 설정은 whatever@cs.stanford.edu or whatever@stanfordalumni.org 등의 이메일 주소를 가진 모든 사람의 편집을 허용합니다.\n<b>텍스트 상자에 허용된 도메인을 입력하고 \"저장\"을 클릭하세요.</b>",
+    "right-privatedomains": "개인 도메인 관리"
+}
