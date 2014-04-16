@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fulup",
-            "Gwenn-Ael"
-        ]
-    },
-    "privatedomains": "Merañ an domanioù prevez",
-    "privatedomains-ifemailcontact": "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]]  m'hoc'h eus tra pe dra da c'houlenn.",
-    "saveprivatedomains-success": "Kemmoù en domanioù prevez saveteet.",
-    "privatedomains-invalidemail": "Ma digarezit, Miret eo ar moned d'ar wiki-mañ evit izili $1.  M'ho peus ur chomlec'h postel emezelet ouzh $1 e challit mont e-barzh pe adkarnaat ho chomlec'h postel war pajenn zibaboù ar gont [[Special:Preferences|amañ]]. Gallout a rit gwelet pajennoù ar wiki-mañ, met ne c'hallit ket kemmañ anezho.",
-    "privatedomains-affiliatenamelabel": "Anv an aozadur :",
-    "privatedomains-emailadminlabel": "Anv implijer an darempred m'ho peus kudennoù mont pe rekedoù :",
-    "privatedomains-instructions": "Diskwelet eo roll domanioù ar chomlec'hioù postel zo aotreet evit embannerien ar wiki-mañ. Pep linenn a ziskouez ur rakverk postel a ro tro d'an embannerien da vont warno. Furmadet e tle ar roll  bezañ gant ur rakverk dre linenn. Da skouer,  :<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div>p>This would allow edits from anyone with the email address whatever@cs.stanford.edu or whatever@stanfordalumni.org</div><b>Ebarzhit roll an domanioù aotreet er voest amañ amañ dindan ha klikit war « saveteiñ».</b>",
-    "right-privatedomains": "Merañ an domanioù prevez"
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Gwenn-Ael"
+		]
+	},
+	"privatedomains": "Merañ an domanioù prevez",
+	"privatedomains-ifemailcontact": "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]]  m'hoc'h eus tra pe dra da c'houlenn.",
+	"saveprivatedomains-success": "Kemmoù en domanioù prevez saveteet.",
+	"privatedomains-invalidemail": "Ma digarezit, Miret eo ar moned d'ar wiki-mañ evit izili $1.  M'ho peus ur chomlec'h postel emezelet ouzh $1 e challit mont e-barzh pe adkarnaat ho chomlec'h postel war pajenn zibaboù ar gont [[Special:Preferences|amañ]]. Gallout a rit gwelet pajennoù ar wiki-mañ, met ne c'hallit ket kemmañ anezho.",
+	"privatedomains-affiliatenamelabel": "Anv an aozadur :",
+	"privatedomains-emailadminlabel": "Anv implijer an darempred m'ho peus kudennoù mont pe rekedoù :",
+	"privatedomains-instructions": "Diskwelet eo roll domanioù ar chomlec'hioù postel zo aotreet evit embannerien ar wiki-mañ. Pep linenn a ziskouez ur rakverk postel a ro tro d'an embannerien da vont warno. Furmadet e tle ar roll  bezañ gant ur rakverk dre linenn. Da skouer,  :<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div>p>This would allow edits from anyone with the email address whatever@cs.stanford.edu or whatever@stanfordalumni.org</div><b>Ebarzhit roll an domanioù aotreet er voest amañ amañ dindan ha klikit war « saveteiñ».</b>",
+	"right-privatedomains": "Merañ an domanioù prevez"
 }

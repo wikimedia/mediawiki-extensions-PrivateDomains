@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Borichèt",
-            "Dragonòt"
-        ]
-    },
-    "privatedomains-nomanageaccess": "Belavans a l'ha pa basta drit për gestì ël domini privà për sta wiki-sì. Mach mangiapapé dla wiki e mèmber ëd l'echip a l'han acess.S'a l'é pa rintrà ant ël sistema, a peul esse [[Special:UserLogin|ch'a deva felo]].",
-    "privatedomains": "Gestiss Domini Privà",
-    "privatedomains-ifemailcontact": "Dësnò, për piasì ch'a contata [[Special:EmailUser/$1|$1]] s'a l'has chèich chestion.",
-    "saveprivatedomains-success": "Salvà ij cangiament ai Domini Privà.",
-    "privatedomains-invalidemail": "Belavans l'acess a sta wiki-sì a l'é arstrenzù ai mèmber ëd $1. S'a l'ha n'adrëssa ëd pòsta eletrònica afilià con $1, a peul anserì o riconfirmé soa adrëssa an soa pàgina dle preferense ëd sò cont [[Special:Preferences|ambelessì]]. A peul ancó visualisé pàgine an sta wiki-sì, ma a podrà pa fé 'd modìfiche.",
-    "privatedomains-affiliatenamelabel": "Nòm ëd l'organisassion:",
-    "privatedomains-emailadminlabel": "Contata nòm utent për problem d'acess o custion:",
-    "privatedomains-instructions": "<br /> <br /> Sota a-i é la lista dij domini ëd pòsta eletrònica përmëttù a j'editor dë sta wiki-sì. Minca linia a spessìfica un sufiss ëd pòsta eletrònica che a l'ha acess për modifiché. Sòn a dovrìa pijé la forma con un sufiss për linia. Për esempi: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div> Sòn a përmët modìfiche da tuti coj ch'a l'han l'adrëssa ëd pòsta eletrònica whatever@cs.stanford.edu o whatever@stanfordalumni.org</div> <b>Ch'a anserissa ij domini përmëttù ant la casela ëd test sì-sota, e ch'a sgnaca \"salvé\".</b>",
-    "right-privatedomains": "Gestì ij domini privà"
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"privatedomains-nomanageaccess": "Belavans a l'ha pa basta drit për gestì ël domini privà për sta wiki-sì. Mach mangiapapé dla wiki e mèmber ëd l'echip a l'han acess.S'a l'é pa rintrà ant ël sistema, a peul esse [[Special:UserLogin|ch'a deva felo]].",
+	"privatedomains": "Gestiss Domini Privà",
+	"privatedomains-ifemailcontact": "Dësnò, për piasì ch'a contata [[Special:EmailUser/$1|$1]] s'a l'has chèich chestion.",
+	"saveprivatedomains-success": "Salvà ij cangiament ai Domini Privà.",
+	"privatedomains-invalidemail": "Belavans l'acess a sta wiki-sì a l'é arstrenzù ai mèmber ëd $1. S'a l'ha n'adrëssa ëd pòsta eletrònica afilià con $1, a peul anserì o riconfirmé soa adrëssa an soa pàgina dle preferense ëd sò cont [[Special:Preferences|ambelessì]]. A peul ancó visualisé pàgine an sta wiki-sì, ma a podrà pa fé 'd modìfiche.",
+	"privatedomains-affiliatenamelabel": "Nòm ëd l'organisassion:",
+	"privatedomains-emailadminlabel": "Contata nòm utent për problem d'acess o custion:",
+	"privatedomains-instructions": "<br /> <br /> Sota a-i é la lista dij domini ëd pòsta eletrònica përmëttù a j'editor dë sta wiki-sì. Minca linia a spessìfica un sufiss ëd pòsta eletrònica che a l'ha acess për modifiché. Sòn a dovrìa pijé la forma con un sufiss për linia. Për esempi: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div> Sòn a përmët modìfiche da tuti coj ch'a l'han l'adrëssa ëd pòsta eletrònica whatever@cs.stanford.edu o whatever@stanfordalumni.org</div> <b>Ch'a anserissa ij domini përmëttù ant la casela ëd test sì-sota, e ch'a sgnaca \"salvé\".</b>",
+	"right-privatedomains": "Gestì ij domini privà"
 }

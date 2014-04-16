@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "David1010"
-        ]
-    },
-    "privatedomains": "პირადი დომენების მართვა",
-    "saveprivatedomains-success": "პირადი დომენების ცვლილებები შენახულია.",
-    "privatedomains-affiliatenamelabel": "ორგანიზაციის სახელი:"
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"privatedomains": "პირადი დომენების მართვა",
+	"saveprivatedomains-success": "პირადი დომენების ცვლილებები შენახულია.",
+	"privatedomains-affiliatenamelabel": "ორგანიზაციის სახელი:"
 }

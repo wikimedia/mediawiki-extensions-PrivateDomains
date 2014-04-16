@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jopparn"
-        ]
-    },
-    "privatedomains-affiliatenamelabel": "Namn på organisationen:"
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"privatedomains-affiliatenamelabel": "Namn på organisationen:"
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Glanthor Reviol"
-        ]
-    },
-    "privatedomains": "Privát tartományok kezelése",
-    "privatedomains-affiliatenamelabel": "Szervezet neve:",
-    "privatedomains-emailadminlabel": "Kapcsolattartó neve hozzáférési problémák vagy kérdések esetére:"
+	"@metadata": {
+		"authors": [
+			"Glanthor Reviol"
+		]
+	},
+	"privatedomains": "Privát tartományok kezelése",
+	"privatedomains-affiliatenamelabel": "Szervezet neve:",
+	"privatedomains-emailadminlabel": "Kapcsolattartó neve hozzáférési problémák vagy kérdések esetére:"
 }

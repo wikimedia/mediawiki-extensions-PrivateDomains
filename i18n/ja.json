@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "privatedomains": "非公開ドメインを管理",
-    "saveprivatedomains-success": "非公開ドメインの変更を保存しました。",
-    "privatedomains-affiliatenamelabel": "組織名:",
-    "right-privatedomains": "非公開ドメインを管理"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"privatedomains": "非公開ドメインを管理",
+	"saveprivatedomains-success": "非公開ドメインの変更を保存しました。",
+	"privatedomains-affiliatenamelabel": "組織名:",
+	"right-privatedomains": "非公開ドメインを管理"
 }

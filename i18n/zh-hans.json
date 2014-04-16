@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226"
-        ]
-    },
-    "privatedomains-nomanageaccess": "您并无足够权限管理用于此wiki的允许私有域名。只有wiki行政员和工作人员组拥有权限。\n如果您未登录，您应该[[Special:UserLogin|点此登录]]。",
-    "privatedomains": "管理私有域名",
-    "privatedomains-ifemailcontact": "否则，如果您有任何问题请联络[[Special:EmailUser/$1|$1]]。",
-    "saveprivatedomains-success": "私有域名更改已保存。",
-    "privatedomains-affiliatenamelabel": "组织名称：",
-    "right-privatedomains": "管理私有域名"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"privatedomains-nomanageaccess": "您并无足够权限管理用于此wiki的允许私有域名。只有wiki行政员和工作人员组拥有权限。\n如果您未登录，您应该[[Special:UserLogin|点此登录]]。",
+	"privatedomains": "管理私有域名",
+	"privatedomains-ifemailcontact": "否则，如果您有任何问题请联络[[Special:EmailUser/$1|$1]]。",
+	"saveprivatedomains-success": "私有域名更改已保存。",
+	"privatedomains-affiliatenamelabel": "组织名称：",
+	"right-privatedomains": "管理私有域名"
 }
