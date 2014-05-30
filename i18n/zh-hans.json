@@ -8,6 +8,9 @@
 	"privatedomains": "管理私有域名",
 	"privatedomains-ifemailcontact": "否则，如果您有任何问题请联络[[Special:EmailUser/$1|$1]]。",
 	"saveprivatedomains-success": "私有域名更改已保存。",
+	"privatedomains-invalidemail": "抱歉，此wiki只有隶属于$1的成员才可访问。如果您在$1登记了电子邮件地址，您可通过您的[[Special:Preferences|账户设置]]输入或再次确认您的电子邮件地址。您仍可查看此wiki的页面，但您将无法编辑。",
 	"privatedomains-affiliatenamelabel": "组织名称：",
+	"privatedomains-emailadminlabel": "联系用户名以解决访问问题或查询：",
+	"privatedomains-instructions": "以下是允许编辑此wiki的电子邮件域名列表。每行指定一个电子邮件后缀以提供编辑权限，每行后缀应保持相同格式。\n例如：<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>\n这将允许任何持有电子邮件地址whatever@cs.stanford.edu 或 whatever@stanfordalumni.org的人编辑\n<b>在下面的文本框中输入允许的域名并点击“保存”即可。</b>",
 	"right-privatedomains": "管理私有域名"
 }
