@@ -154,4 +154,7 @@ class PrivateDomains extends SpecialPage {
 		$out->returnToMain();
 	}
 
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

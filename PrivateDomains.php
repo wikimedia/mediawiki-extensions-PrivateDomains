@@ -31,8 +31,6 @@ $wgAutoloadClasses['PrivateDomains'] = $dir . 'SpecialPrivateDomains.php';
 $wgMessagesDirs['PrivateDomains'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['PrivateDomains'] = $dir . 'PrivateDomains.i18n.php';
 $wgSpecialPages['PrivateDomains'] = 'PrivateDomains';
-// Special page group for MW 1.13+
-$wgSpecialPageGroups['PrivateDomains'] = 'wiki';
 
 $wgHooks['AlternateEdit'][] = 'pd_AlternateEdit'; // Occurs whenever action=edit is called
 $wgHooks['UserLoginComplete'][] = 'pd_UserLoginComplete'; // Occurs after a user has successfully logged in
