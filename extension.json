@@ -1,0 +1,77 @@
+{
+	"name": "PrivateDomains",
+	"version": "1.4.0",
+	"author": [
+		"Inez Korczyński",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:PrivateDomains",
+	"description": "Allows to restrict editing to users with a certain e-mail address",
+	"type": "specialpage",
+	"SpecialPages": {
+		"PrivateDomains": "PrivateDomains"
+	},
+	"MessagesDirs": {
+		"PrivateDomains": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PrivateDomains": "SpecialPrivateDomains.php",
+		"PrivateDomainsHooks": "PrivateDomainsHooks.php"
+	},
+	"Hooks": {
+		"AlternateEdit": [
+			"PrivateDomainsHooks::onAlternateEdit"
+		],
+		"UserLoginComplete": [
+			"PrivateDomainsHooks::onUserLoginComplete"
+		],
+		"ConfirmEmailComplete": [
+			"PrivateDomainsHooks::onUserLoginComplete"
+		]
+	},
+	"AvailableRights": [
+		"privatedomains"
+	],
+	"GroupPermissions": {
+		"*": {
+			"edit": false,
+			"minoredit": false,
+			"move": false,
+			"reupload": false,
+			"reupload-shared": false,
+			"upload": false
+		},
+		"bureaucrat": {
+			"edit": true,
+			"move": true,
+			"upload": true,
+			"privatedomains": true
+		},
+		"privatedomains": {
+			"edit": true,
+			"minoredit": true,
+			"move": true,
+			"reupload": true,
+			"reupload-shared": true,
+			"upload": true
+		},
+		"staff": {
+			"edit": true,
+			"move": true,
+			"upload": true,
+			"privatedomains": true
+		},
+		"user": {
+			"edit": false,
+			"minoredit": false,
+			"move": false,
+			"reupload": false,
+			"reupload-shared": false,
+			"upload": false
+		}
+	},
+	"manifest_version": 1
+}

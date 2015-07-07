@@ -1,14 +1,19 @@
 <?php
 /**
- * Body file for PrivateDomains extension
- * Defines the new special page, Special:PrivateDomains
+ * PrivateDomains extension - allows to restrict editing to users with a
+ * certain e-mail address
  *
  * @file
  * @ingroup Extensions
+ * @author Inez Korczyński <korczynski@gmail.com>
+ * @author Jack Phoenix <jack@countervandalism.net>
+ * @link https://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 /**
  * Main extension class
+ * Defines the new special page, Special:PrivateDomains
  */
 class PrivateDomains extends SpecialPage {
 
@@ -22,8 +27,8 @@ class PrivateDomains extends SpecialPage {
 	/**
 	 * Saves a message in the MediaWiki: namespace.
 	 *
-	 * @param $name String: name of the MediaWiki message
-	 * @param $value Mixed: value of the message
+	 * @param string $name Name of the MediaWiki message
+	 * @param mixed $value Value of the message
 	 */
 	function saveParam( $name, $value ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
@@ -35,8 +40,8 @@ class PrivateDomains extends SpecialPage {
 	/**
 	 * Fetches the content of a defined MediaWiki message.
 	 *
-	 * @param $name String: name of the MediaWiki message
-	 * @return string or nothing
+	 * @param string $name Name of the MediaWiki message
+	 * @return string Page content if the supplied page exists or an empty string
 	 */
 	static function getParam( $name ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
@@ -51,7 +56,7 @@ class PrivateDomains extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par Mixed: parameter passed to the page or null
+	 * @param mixed|null $par Parameter passed to the page
 	 */
 	public function execute( $par ) {
 		$request = $this->getRequest();
@@ -101,10 +106,10 @@ class PrivateDomains extends SpecialPage {
 			return;
 		}
 
-		// If there was an error message, display it.
+		// If there was a message, display it.
 		if ( $msg != '' ) {
 			$out->addHTML(
-				'<div class="errorbox" style="width:92%;"><h2>' . $msg .
+				'<div class="successbox" style="width:92%;"><h2>' . $msg .
 				'</h2></div><br /><br /><br />'
 			);
 		}
