@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Pertile"
+			"Pertile",
+			"Macofe"
 		]
 	},
 	"privatedomains-nomanageaccess": "Lo sentimos, no tiene los privilegios suficientes para administrar los dominios privados permitidos para esta wiki. Solamente los burócratas wiki y los miembros del personal tienen acceso.Si no accedió al sistema, probablemente [[Special:UserLogin|debería hacerlo]].",
@@ -12,6 +13,6 @@
 	"privatedomains-invalidemail": "Lo sentimos, el acceso a esta wiki está restringido a los miembros de $1. Si posee una cuenta de correo electrónico afiliada a $1, puede ingresarla o volver a confirmar su dirección de correo electrónico en la página de preferencias de su cuenta [[Special:Preferences|aquí]]. Todavía puede ver las páginas en esta wiki, pero no podrá editarlas.",
 	"privatedomains-affiliatenamelabel": "Nombre de la organización:",
 	"privatedomains-emailadminlabel": "Nombre de usuario del contacto para problemas o consultas:",
-	"privatedomains-instructions": "A continuación se presenta la lista de dominios de correo electrónico permitidos para los editores de esta wiki. Cad línea designa un sufijo de correo electrónico que puede editar en esta wiki. Esta debería tener un formato de un sufijo por línea. Por ejemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br /> stanfordalumni.org</div>El ejemplo anterior debería permitir las ediciones de alguien cuya dirección de correo sea loquesea@cs.stanford.edu o loquesea@stanfordalumni.org</div><b>Ingrese los dominios permitidos en el cuadro de texto que se muestra debajo y haga clic en \"guardar\".</b>",
+	"privatedomains-instructions": "A continuación se presenta la lista de dominios de correo electrónico permitidos para los editores de esta wiki.\nCada línea designa un sufijo de correo electrónico que puede editar en esta wiki.\nEsta debería tener un formato de un sufijo por línea.\nPor ejemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">cs.stanford.edu<br />stanfordalumni.org</div>\nEl ejemplo anterior debería permitir las ediciones de alguien cuya dirección de correo sea loquesea@cs.stanford.edu o loquesea@stanfordalumni.org\n<b>Escribe los dominios permitidos en el cuadro de texto que se muestra debajo y haz clic en \"guardar\".</b>",
 	"right-privatedomains": "Administrar dominios privados"
 }
