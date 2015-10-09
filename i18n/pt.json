@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
 		]
 	},
 	"privatedomains-nomanageaccess": "Desculpe, mas não tem privilégios para administrar os domínios privados permitidos nesta wiki. Só os burocratas e os membros da equipa têm acesso.Se não se autenticou, provavelmente [[Special:UserLogin|devia]].",
@@ -11,6 +12,6 @@
 	"privatedomains-invalidemail": "Desculpe, mas o acesso a esta wiki está restrito aos membros de $1. Se tem um correio electrónico afiliado com $1 pode introduzir ou reconfirmar o endereço de correio electrónico na sua [[Special:Preferences|página de preferências]]. Pode continuar a ver as páginas da wiki, mas não pode editá-las.",
 	"privatedomains-affiliatenamelabel": "Nome da organização:",
 	"privatedomains-emailadminlabel": "Nome do utilizador de contacto para problemas e questões:",
-	"privatedomains-instructions": "É apresentada abaixo a lista de domínios de correio electrónico permitidos para os editores desta wiki.\nCada linha designa um sufixo de correio electrónico com permissões de edição.\nDeve existir um sufixo por linha.\nPor exemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">uma.pt<br />unl.pt</div>\nIsto permite edições a todos aqueles com um endereço de correio electrónico nome@uma.pt ou nome@unl.pt.<br />\n<b>Introduza os domínios permitidos na caixa de texto abaixo e clique \"gravar\".</b>",
+	"privatedomains-instructions": "É apresentada abaixo a lista de domínios de correio eletrónico permitidos para os editores desta wiki.\nCada linha designa um sufixo de correio eletrónico com permissões de edição.\nDeve existir um sufixo por linha.\nPor exemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>uma.pt<br />unl.pt</code></div>\nIsto permite edições a todos aqueles com um endereço de correio eletrónico <code>nome@uma.pt</code> ou <code>nome@unl.pt</code>.<br />\n<strong>Introduza os domínios permitidos na caixa de texto abaixo e clique \"{{int:saveprefs}}\".</strong>",
 	"right-privatedomains": "Gerir domínios privados"
 }
