@@ -11,6 +11,6 @@
 	"privatedomains-invalidemail": "抱歉，此wiki只有隶属于$1的成员才可访问。如果您在$1登记了电子邮件地址，您可通过您的[[Special:Preferences|账户设置]]输入或再次确认您的电子邮件地址。您仍可查看此wiki的页面，但您将无法编辑。",
 	"privatedomains-affiliatenamelabel": "组织名称：",
 	"privatedomains-emailadminlabel": "联系用户名以解决访问问题或查询：",
-	"privatedomains-instructions": "以下是允许编辑此wiki的电子邮件域名列表。每行指定一个电子邮件后缀以提供编辑权限，每行后缀应保持相同格式。\n例如：<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">example.com<br />mail.example.net</div>\n这将允许任何持有电子邮件地址whatever@example.com 或 whatever@mail.example.net的人编辑\n<b>在下面的文本框中输入允许的域名并点击“保存”即可。</b>",
+	"privatedomains-instructions": "这里是允许编辑此wiki的电子邮件域名列表。每行指定一个电子邮件后缀以提供编辑权限，每行后缀应保持相同格式。\n例如：<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\n这将允许任何持有电子邮件地址<code>whatever@example.com</code>或<code>whatever@mail.example.net</code>的人编辑\n<strong>在下面的文本框中输入允许的域名并点击“{{int:saveprefs}}”即可。</strong>",
 	"right-privatedomains": "管理私有域名"
 }
