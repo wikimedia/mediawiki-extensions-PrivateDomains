@@ -102,8 +102,7 @@ class PrivateDomains extends SpecialPage {
 
 		// Is the user blocked?
 		if ( $user->isBlocked() ) {
-			$out->blockedPage();
-			return;
+			throw new UserBlockedError( $user->getBlock() );
 		}
 
 		// If there was a message, display it.
