@@ -24,6 +24,10 @@ class PrivateDomains extends SpecialPage {
 		parent::__construct( 'PrivateDomains'/*class*/, 'privatedomains'/*restriction*/ );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Saves a message in the MediaWiki: namespace.
 	 *
