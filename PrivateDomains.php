@@ -14,7 +14,7 @@
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'PrivateDomains',
-	'version' => '1.4.0',
+	'version' => '1.5.0',
 	'author' => array( 'Inez Korczyński', 'Jack Phoenix' ),
 	'description' => 'Allows to restrict editing to users with a certain e-mail address',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PrivateDomains',
@@ -28,7 +28,7 @@ $wgSpecialPages['PrivateDomains'] = 'PrivateDomains';
 
 $wgAutoloadClasses['PrivateDomainsHooks'] = __DIR__ . '/PrivateDomainsHooks.php';
 $wgHooks['AlternateEdit'][] = 'PrivateDomainsHooks::onAlternateEdit';
-$wgHooks['UserLoginComplete'][] = 'PrivateDomainsHooks::onUserLoginComplete';
+$wgHooks['UserLoggedIn'][] = 'PrivateDomainsHooks::onUserLoginComplete';
 $wgHooks['ConfirmEmailComplete'][] = 'PrivateDomainsHooks::onUserLoginComplete';
 
 # set 'privatedomains' right to users in staff or bureaucrat group
