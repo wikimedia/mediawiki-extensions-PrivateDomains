@@ -6,7 +6,7 @@
 			"Ykhwong"
 		]
 	},
-	"privatedomains-nomanageaccess": "이 위키의 허용된 개인 도메인을 관리할 권한이 부족합니다.\n\n로그인 상태가 아니라면[[Special:UserLogin|로그인]]을 해주세요.",
+	"privatedomains-nomanageaccess": "이 위키의 허용된 개인 도메인을 관리할 권한이 부족합니다.\n위키 사무관과 직원 권한만 접근합니다.\n\n로그인하고 있지 않으면, [[Special:UserLogin|로그인]]을 해주세요.",
 	"privatedomains": "개인 도메인 관리",
 	"privatedomains-ifemailcontact": "질문이 있으면 [[Special:EmailUser/$1|$1]] 사용자에게 문의해 주세요.",
 	"saveprivatedomains-success": "개인 도메인 바뀜이 저장됨.",
