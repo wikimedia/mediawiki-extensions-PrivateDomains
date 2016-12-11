@@ -36,9 +36,12 @@ class PrivateDomains extends SpecialPage {
 	 */
 	function saveParam( $name, $value ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
-		$article = new Article( $nameTitle );
+		$page = WikiPage::factory( $nameTitle );
 
-		$article->doEdit( $value, '' );
+		$page->doEditContent(
+			ContentHandler::makeContent( $value, $nameTitle ),
+			''
+		);
 	}
 
 	/**
