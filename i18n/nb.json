@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"privatedomains-nomanageaccess": "Beklager, du har ikke nok rettigheter til å håndtere tillatte private domener for denne wikien. Kun wikibyråkrater og stabsmedlemmer har tilgang.Du bør [[Special:UserLogin|logge inn]] om du ikke alt har gjort det.",
@@ -11,6 +12,6 @@
 	"privatedomains-invalidemail": "Beklager, tilgang til denne wikien er begrenset til medlemmer av $1. Om du har en e-postadresse tilknyttet $1 kan du skrive den inn eller bekrefte den på din side for [[Special:Preferences|kontoinnstillinger]]. Du kan fortsatt se sidene på denne wikien, men du kan ikke redigere dem.",
 	"privatedomains-affiliatenamelabel": "Navn på organisasjon:",
 	"privatedomains-emailadminlabel": "Kontakt brukernavn for tilgangsproblemer eller spørsmål:",
-	"privatedomains-instructions": "Under er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style=\"width:20%; padding:5px; border:1px solid grey;\">example.com<br /> mail.example.net</div>Dette ville tillatt redigeringer fra enhver med e-postadresse hvasomhelst@example.com og hvasomhelst@mail.example.net</div><b>Skriv inn tillatte domener i tekstboksen under og klikk «lagre».</b>",
+	"privatedomains-instructions": "Her er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style=\"width:20%; padding:5px; border:1px solid grey;\"><code>example.com<br />mail.example.net</code></div>Dette ville tillatt redigeringer fra enhver med e-postadresse <code>hvasomhelst@example.com</code> og <code>hvasomhelst@mail.example.net</code></div><strong>Skriv inn tillatte domener i tekstboksen under og klikk «{{int:saveprefs}}».</strong>",
 	"right-privatedomains": "Behandle private domener"
 }
