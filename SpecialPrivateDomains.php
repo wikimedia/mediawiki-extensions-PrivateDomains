@@ -53,8 +53,8 @@ class PrivateDomains extends SpecialPage {
 	static function getParam( $name ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
 		if ( $nameTitle->exists() ) {
-			$article = new Article( $nameTitle );
-			return $article->getContent();
+			$page = new WikiPage( $nameTitle );
+			return $page->getContent()->getNativeData();
 		} else {
 			return '';
 		}
