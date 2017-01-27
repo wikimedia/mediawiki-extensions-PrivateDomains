@@ -6,6 +6,7 @@
 			"Umherirrender"
 		]
 	},
+	"privatedomains-desc": "{{desc|name=PrivateDomains|url=https://www.mediawiki.org/wiki/Extension:PrivateDomains}}",
 	"privatedomains-nomanageaccess": "Unused at this time.",
 	"privatedomains": "{{doc-special|PrivateDomains}}",
 	"privatedomains-ifemailcontact": "Parameters:\n* $1 - username to be contacted by email; supports GENDER\nSee also:\n* {{msg-mw|privatedomains-emailadminlabel}} - label for \"email domain\" input box",

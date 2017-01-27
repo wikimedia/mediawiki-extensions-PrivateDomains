@@ -7,7 +7,7 @@
 	],
 	"license-name": "GPL-2.0+",
 	"url": "https://www.mediawiki.org/wiki/Extension:PrivateDomains",
-	"description": "Allows to restrict editing to users with a certain e-mail address",
+	"descriptionmsg": "privatedomains-desc",
 	"type": "specialpage",
 	"SpecialPages": {
 		"PrivateDomains": "PrivateDomains"
