@@ -7,6 +7,7 @@
 			"Metalhead64"
 		]
 	},
+	"privatedomains-desc": "Ermöglicht eine Bearbeitungsbeschränkung für Benutzer mit einer bestimmten E-Mail-Adresse",
 	"privatedomains-nomanageaccess": "Du hast nicht die Berechtigung zulässige Domains für dieses Wiki festzulegen sowie zu verwalten. Nur Benutzer mit der Berechtigung „privatedomains“ können dies.\n\nSofern du lediglich nicht angemeldet bist, kannst du dies [[Special:UserLogin|hier machen]].",
 	"privatedomains": "Ermöglicht das Festlegen und Verwalten zulässiger Domains",
 	"privatedomains-ifemailcontact": "Ansonsten wende dich bitte im Fall von Fragen an Benutzer [[Special:EmailUser/$1|$1]].",

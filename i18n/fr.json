@@ -6,6 +6,7 @@
 			"Gomoko"
 		]
 	},
+	"privatedomains-desc": "Permet de limiter l’édition aux utilisateurs avec une adresse de courriel particulière",
 	"privatedomains-nomanageaccess": "Désolé, vous n'avez les droits suffisants pour gérer les domaines privés de ce wiki. Seuls les bureaucrates et les membres du personnel y ont accès.Si vous n'êtes pas connecté, vous devriez probablement [[Special:UserLogin|vous connecter]].",
 	"privatedomains": "Gérer les domaines privés",
 	"privatedomains-ifemailcontact": "Sinon, veuillez contacter [[Special:EmailUser/$1|$1]] si vous avec une question.",
