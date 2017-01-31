@@ -4,9 +4,11 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Renessaince"
+			"Renessaince",
+			"Red Winged Duck"
 		]
 	},
+	"privatedomains-desc": "Дазваляе абмежаваць рэдагаваньні ўдзельнікам з пэўнымі адрасамі электроннай пошты",
 	"privatedomains-nomanageaccess": "Выбачайце, Вы ня маеце правоў для кіраваньня дазволенымі ўласнымі дамэнамі ў {{GRAMMAR:месны|{{SITENAME}}}}. Маюць доступ толькі бюракраты і супрацоўнікі.Калі вы не ўвайшлі ў сыстэму, Вам, магчыма, [[Special:UserLogin|трэба ўвайсьці]].",
 	"privatedomains": "Кіраваньне ўласнымі дамэнамі",
 	"privatedomains-ifemailcontact": "У іншым выпадку, калі ласка, зьвярніцеся да [[Special:EmailUser/$1|$1]], калі Вы маеце якія-небудзь пытаньні.",

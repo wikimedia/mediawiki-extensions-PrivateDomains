@@ -3,9 +3,11 @@
 		"authors": [
 			"Armando-Martin",
 			"Pertile",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
+	"privatedomains-desc": "Permite restringir la edición a los usuarios con una determinada dirección de correo electrónico",
 	"privatedomains-nomanageaccess": "Lo sentimos, no tiene los privilegios suficientes para administrar los dominios privados permitidos para esta wiki. Solamente los burócratas wiki y los miembros del personal tienen acceso.Si no accedió al sistema, probablemente [[Special:UserLogin|debería hacerlo]].",
 	"privatedomains": "Administrar Dominios Privados",
 	"privatedomains-ifemailcontact": "En caso contrario, póngase en contacto con [[Special:EmailUser/$1|$1]] por cualquier consulta.",
