@@ -17,6 +17,9 @@
 			"i18n"
 		]
 	},
+	"ExtensionMessagesFiles": {
+		"PrivateDomainsAlias": "PrivateDomains.alias.php"
+	},
 	"AutoloadClasses": {
 		"PrivateDomains": "SpecialPrivateDomains.php",
 		"PrivateDomainsHooks": "PrivateDomainsHooks.php"
