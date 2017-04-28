@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
+	"privatedomains-desc": "Permite restrinxir a edición de usuarios cun determinado enderezo de correo electrónico",
 	"privatedomains-nomanageaccess": "Non ten os dereitos necesarios para xestionar os dominios privados deste wiki.\nSó os burócratas do wiki e os membros do persoal teñen acceso.\n\nSe non accedeu ao sistema, probabelmente [[Special:UserLogin|debería]] facelo.",
 	"privatedomains": "Xestionar os dominios privados",
 	"privatedomains-ifemailcontact": "Se non, póñase en contacto con [[Special:EmailUser/$1|$1]] se ten algunha dúbida.",
