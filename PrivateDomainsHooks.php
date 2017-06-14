@@ -17,6 +17,7 @@ class PrivateDomainsHooks {
 		global $wgUser;
 		$groups = $wgUser->getEffectiveGroups();
 		if (
+			$wgUser->isAnon() ||
 			$wgUser->isLoggedIn() && !in_array( 'privatedomains', $groups ) &&
 			!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups )
 		)
