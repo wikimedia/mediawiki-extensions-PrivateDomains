@@ -96,16 +96,10 @@ class PrivateDomains extends SpecialPage {
 		$action = htmlspecialchars( $titleObj->getLocalURL( 'action=submit' ) );
 
 		// Can the user execute the action?
-		if ( !$user->isAllowed( 'privatedomains' ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
+		$this->checkPermissions();
 
 		// Is the database in read-only mode?
-		if ( wfReadOnly() ) {
-			$out->readOnlyPage();
-			return;
-		}
+		$this->checkReadOnly();
 
 		// Is the user blocked?
 		if ( $user->isBlocked() ) {
