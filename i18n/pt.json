@@ -5,6 +5,7 @@
 			"Vitorvicentevalente"
 		]
 	},
+	"privatedomains-desc": "Permite restringir a edição aos utilizadores com um certo endereço de correio eletrónico",
 	"privatedomains-nomanageaccess": "Desculpe, mas não tem privilégios para administrar os domínios privados permitidos nesta wiki.\nSó os burocratas e os membros da equipa têm acesso.\n\nSe não se autenticou, provavelmente [[Special:UserLogin|devia]].",
 	"privatedomains": "Administrar Domínios Privados",
 	"privatedomains-ifemailcontact": "Caso contrário, contacte [[Special:EmailUser/$1|$1]] se tiver dúvidas, por favor.",
