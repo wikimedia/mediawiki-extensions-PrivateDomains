@@ -4,9 +4,11 @@
 			"Mark van Alphen",
 			"Mitchel Corstjens",
 			"Siebrand",
-			"Siebrand Mazeland"
+			"Siebrand Mazeland",
+			"Mainframe98"
 		]
 	},
+	"privatedomains-desc": "Biedt de mogelijkheid om bewerken te beperken tot gebruikers met een bepaald e-mailadres",
 	"privatedomains-nomanageaccess": "U hebt onvoldoende rechten om privédomeinen voor deze wiki te beheren.\nAlleen bureaucraten van de wiki en medewerkers hebben toegang.\n\nAls u niet bent aangemeld, [[Special:UserLogin|doe dat dan nu]].",
 	"privatedomains": "Privédomeinen beheren",
 	"privatedomains-ifemailcontact": "Neem contact op met [[Special:EmailUser/$1|$1]] als u vragen hebt.",
@@ -14,6 +16,6 @@
 	"privatedomains-invalidemail": "Toegang tot deze wiki is alleen toegestaan voor leden van $1.\nAls u een e-mailadres hebt dat verwant is aan $1, kunt u uw e-mailadres invoeren of opnieuw bevestigen in uw [[Special:Preferences|voorkeuren]].\nU kunt nog steeds pagina's op de wiki bekijken, maar u mag deze niet bewerken.",
 	"privatedomains-affiliatenamelabel": "Organisatienaam:",
 	"privatedomains-emailadminlabel": "Neem contact op met gebruikersnaam voor toegangsproblemen of als u vragen hebt:",
-	"privatedomains-instructions": "Onderstaande is een lijst van e-maildomeinen waar gebruikers van deze wiki een e-mailadres moeten hebben.\nOp elke regel wordt een e-mailachtervoegsel beschreven dat toegang geeft om te bewerken\nOp iedere regel mag één domein beschreven worden.\nVoorbeeld: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">subdomein.example.com<br />nogeen.example.com</div>\nHierdoor wordt het voor iedereen met een e-mailadres \"watdanook@subdomein.example.com\" of \"watdonaook@nogeen.example.com mogelijk om te bewerken\n<b>Voer de toegestane e-maildomeinen in het onderstaande venster in en klik op \"Opslaan\".</b>",
+	"privatedomains-instructions": "Dit is een lijst van e-maildomeinen waar gebruikers van deze wiki een e-mailadres moeten hebben.\nOp elke regel wordt een e-mailachtervoegsel beschreven dat toegang geeft om te bewerken\nOp iedere regel mag één domein beschreven worden.\nVoorbeeld: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">subdomein.example.com<br />nogeen.example.com</div>\nHierdoor wordt het voor iedereen met een e-mailadres \"watdanook@subdomein.example.com\" of \"watdonaook@nogeen.example.com mogelijk om te bewerken\n<strong>Voer de toegestane e-maildomeinen in het onderstaande venster in en klik op \"{{int:saveprefs}}\".</strong>",
 	"right-privatedomains": "Private domeinen beheren"
 }
