@@ -6,7 +6,7 @@
  * @file
  * @ingroup Extensions
  * @author Inez Korczyński <korczynski@gmail.com>
- * @author Jack Phoenix <jack@countervandalism.net>
+ * @author Jack Phoenix
  * @link https://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
