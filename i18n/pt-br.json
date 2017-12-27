@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"privatedomains-desc": "Permite restringir a edição a usuários com determinado endereço de e-mail",
+	"privatedomains-affiliatenamelabel": "Nome da organização:"
+}
