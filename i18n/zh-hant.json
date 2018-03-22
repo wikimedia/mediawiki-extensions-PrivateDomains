@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
-	"privatedomains": "管理私人使用的網域"
+	"privatedomains-desc": "允許以特定的電子郵件地址來限制使用者編輯",
+	"privatedomains-nomanageaccess": "您沒有足夠的權限來管理用於此 wiki 的私有網域。 \n僅有 wiki 行政員和機構成員擁有該權限。\n\n若您尚未登入的話請[[Special:UserLogin|登入]]。",
+	"privatedomains": "管理私人使用的網域",
+	"privatedomains-ifemailcontact": "或者，若您有任何問題請聯絡 [[Special:EmailUser/$1|$1]]。",
+	"saveprivatedomains-success": "私有網域變更已儲存。",
+	"privatedomains-invalidemail": "很抱歉，僅屬於 $1 的成員才可存取此 wiki。\n若您擁有隸屬於 $1 的電子郵件，您可以在您的[[Special:Preferences|帳號設置頁面]]輸入或重新確認電子郵件地址。\n您仍可檢視此 wiki 上的頁面，但是無法做出編輯。",
+	"privatedomains-affiliatenamelabel": "組織名稱：",
+	"privatedomains-emailadminlabel": "聯絡使用者有關存取問題或查詢方面：",
+	"privatedomains-instructions": "這是允許在此 wiki 上編輯的電子郵件網域清單。\n任一行指定的電子郵件字首代表給予編輯的權限。\n各行都應採用一個字尾的格式。\n例如：<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\n這代表著允許任何俱有 <code>whatever@example.com</code> 或是 <code>whatever@mail.example.net</code> 電子郵件地址的人編輯\n<strong>請在文字框輸入允許的網域，然後點擊「{{int:saveprefs}}」。</strong>",
+	"right-privatedomains": "管理私人使用的網域"
 }
