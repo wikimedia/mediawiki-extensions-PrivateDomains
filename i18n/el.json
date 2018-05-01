@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"privatedomains": "Διαχείριση ιδιωτικών τομέων",
+	"privatedomains-ifemailcontact": "Αλλιώς, παρακαλώ επικοινωνήστε με τον [[Special:EmailUser/$1|$1]] εάν έχετε κάποια ερώτηση.",
+	"saveprivatedomains-success": "Οι αλλαγές ιδιωτικών τομέων αποθηκεύτηκαν.",
+	"privatedomains-affiliatenamelabel": "Όνομα οργανισμού:",
+	"right-privatedomains": "Διαχείριση ιδιωτικών τομέων"
+}
