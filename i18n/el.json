@@ -8,5 +8,6 @@
 	"privatedomains-ifemailcontact": "Αλλιώς, παρακαλώ επικοινωνήστε με τον [[Special:EmailUser/$1|$1]] εάν έχετε κάποια ερώτηση.",
 	"saveprivatedomains-success": "Οι αλλαγές ιδιωτικών τομέων αποθηκεύτηκαν.",
 	"privatedomains-affiliatenamelabel": "Όνομα οργανισμού:",
+	"privatedomains-emailadminlabel": "Όνομα χρήστη επικοινωνίας για προβλήματα πρόσβασης ή ερωτήματα:",
 	"right-privatedomains": "Διαχείριση ιδιωτικών τομέων"
 }
