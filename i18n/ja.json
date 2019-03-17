@@ -8,6 +8,6 @@
 	"privatedomains": "非公開ドメインを管理",
 	"saveprivatedomains-success": "非公開ドメインの変更を保存しました。",
 	"privatedomains-affiliatenamelabel": "組織名:",
-	"privatedomains-instructions": "ここでは、このウィキの編集者に許可される電子メール・ドメインのリストです。\n各行は、編集のためのアクセス権が付与された電子メールの接尾辞を指定します。\nこれは、1行に1つの接尾辞でフォーマットする必要があります。\n例えば:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nThis would allow edits from anyone with the email address <code>whatever@example.com</code> or <code>whatever@mail.example.net</code>\n<strong>Enter the allowed domains in the text box, and click \"{{int:saveprefs}}\".</strong>",
+	"privatedomains-instructions": "ここでは、このウィキの編集者に許可されるメール ドメインのリストです。\n各行は、編集のためのアクセス権が付与されたメールの接尾辞を指定します。\nこれは、1行に1つの接尾辞でフォーマットする必要があります。\n例えば:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nThis would allow edits from anyone with the email address <code>whatever@example.com</code> or <code>whatever@mail.example.net</code>\n<strong>Enter the allowed domains in the text box, and click \"{{int:saveprefs}}\".</strong>",
 	"right-privatedomains": "非公開ドメインを管理"
 }
