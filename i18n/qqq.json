@@ -15,5 +15,6 @@
 	"privatedomains-affiliatenamelabel": "Used as label for \"affiliate name\" input box.\n\nSee also:\n* {{msg-mw|Privatedomains-invalidemail}}",
 	"privatedomains-emailadminlabel": "Used as label for \"email domain\" input box.\n\nSee also:\n* {{msg-mw|Privatedomains-ifemailcontact}}",
 	"privatedomains-instructions": "Used as instruction message for the \"domains\" textarea in the \"private domains\" form in [[Special:PrivateDomains]].",
+	"action-privatedomains": "{{doc-action|privatedomains}}",
 	"right-privatedomains": "{{doc-right|privatedomains}}"
 }

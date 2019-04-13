@@ -13,5 +13,6 @@
 	"privatedomains-affiliatenamelabel": "Name of organization:",
 	"privatedomains-emailadminlabel": "Contact username for access problems or queries:",
 	"privatedomains-instructions": "Here is the list of email domains allowed for editors of this wiki.\nEach line designates an email suffix that is given access for editing.\nThis should be formatted with one suffix per line.\nFor example:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nThis would allow edits from anyone with the email address <code>whatever@example.com</code> or <code>whatever@mail.example.net</code>\n<strong>Enter the allowed domains in the text box, and click \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "manage private domains",
 	"right-privatedomains": "Manage private domains"
 }
