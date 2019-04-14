@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"privatedomains-desc": "يسمح بتقييد التحرير للمستخدمين ذوي عنوان بريد إلكتروني معين",
@@ -13,5 +14,6 @@
 	"privatedomains-affiliatenamelabel": "اسم المنظمة:",
 	"privatedomains-emailadminlabel": "اسم المستخدم لجهة الاتصال لمشكلات الوصول أو الاستعلامات:",
 	"privatedomains-instructions": "فيما يلي قائمة نطاقات البريد الإلكتروني المسموح بها لمحرري هذا الويكي. \nيعين كل سطر لاحقة بريد إلكتروني يتم منحها إمكانية الوصول للتعديل. \nيجب تنسيق هذا مع لاحقة واحدة لكل سطر. \nعلى سبيل المثال: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>،\nوهذا من شأنه السماح بإجراء تعديلات من أي شخص لديه عنوان البريد الإلكتروني <code>whatever@example.com</code> or <code>whatever@mail.example.net</code>،\n<strong>أدخل النطاقات المسموح بها في صندوق النص، وانقر على \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "التحكم بالنطاقات الخاصة",
 	"right-privatedomains": "إدارة النطاقات الخاصة"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ата",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"privatedomains-desc": "Дозволяє обмежувати можливість редагування користувачам з певними адресами електронної пошти",
@@ -14,5 +15,6 @@
 	"privatedomains-affiliatenamelabel": "Назва організації:",
 	"privatedomains-emailadminlabel": "Ім'я контактного користувача щодо питань або проблем з доступом:",
 	"privatedomains-instructions": "Тут наведено перелік поштових доменів, допустимих для редакторів цієї вікі.\nКожен рядок позначає суфікс адреси електронної пошти, якому надано доступ до редагування.\nУ кожному рядку має бути не більше одного суфікса.\nНаприклад:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nЦе дозволить редагувати комусь із адресою електронної пошти <code>whatever@example.com</code> або <code>whatever@mail.example.net</code>\n<м>Введіть дозволені домени у текстовому полі нижче і натисніть «{{int:saveprefs}}».</strong>",
+	"action-privatedomains": "керування приватними доменами",
 	"right-privatedomains": "Керування приватними доменами"
 }
