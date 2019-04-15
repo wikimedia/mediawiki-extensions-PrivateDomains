@@ -13,5 +13,6 @@
 	"privatedomains-affiliatenamelabel": "Nome de l'organizzazzione:",
 	"privatedomains-emailadminlabel": "Condatte l'utende pe le probbleme de accesse o de inderrogaziune:",
 	"privatedomains-instructions": "Aqquà sotte stè l'elenghe de le dominie de l'email permesse pe le cangiature de sta uicchi.\nOgne linèe definisce 'nu suffisse de l'email ca tène l'accesse pe cangià.\nQuiste avessa essere formattate cu 'n suffisse pe linèe.\nPe esembie: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nQuiste permette le cangiaminde da cengate tène 'n'indirizze email cu <code>quiddecavue@example.com</code> o <code>quiddecavue@mail.example.net</code>\n<strong>Sckaffe le dominie permesse jndr'à buatte d'u teste aqquà sotte, e cazze \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "gestisce le dominie private",
 	"right-privatedomains": "Gestisce le dominie private"
 }

@@ -15,5 +15,6 @@
 	"privatedomains-affiliatenamelabel": "Nom de l'organisation :",
 	"privatedomains-emailadminlabel": "Nom d'utilisateur du contact pour des problèmes d'accès ou requêtes :",
 	"privatedomains-instructions": "Voici la liste des domaines des adresses de courriel autorisées pour les éditeurs de ce wiki.\nChaque ligne désigne un suffixe d'adresse de courriel qui donne accès aux éditeurs.\nLa liste doit être formatée avec un suffixe par ligne.\nPar exemple : <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br /> mail.example.net</code></div>\nCeci permettra à toutes les personnes ayant une adresse de courriel « quelque-chose@example.com » ou « quelque-chose@mail.example.net » de modifier le wiki.\n<strong>Entrez la liste des domaines autorisés dans la boîte ci-dessous et cliquez sur « {{int:saveprefs}} ».</strong>",
+	"action-privatedomains": "gérer les domaines privés",
 	"right-privatedomains": "Gérer les domaines privés"
 }

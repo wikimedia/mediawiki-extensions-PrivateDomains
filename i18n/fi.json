@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Centerlink"
+			"Centerlink",
+			"Pyscowicz"
 		]
 	},
 	"privatedomains": "Hallinnoi yksityisiä verkkoalueita",
 	"privatedomains-ifemailcontact": "Muussa tapauksessa, ota yhteys [[Special:EmailUser/$1|$1]], jos sinulla on kysyttävää.",
 	"saveprivatedomains-success": "Yksityisen verkkoalueen muutokset on tallennettu.",
 	"privatedomains-affiliatenamelabel": "Organisaation nimi:",
-	"privatedomains-emailadminlabel": "Yhteystietokäyttäjänimi pääsypulmissa tai kyselyissä:"
+	"privatedomains-emailadminlabel": "Yhteystietokäyttäjänimi pääsypulmissa tai kyselyissä:",
+	"action-privatedomains": "hallinnoida yksityisiä verkkoalueita"
 }
