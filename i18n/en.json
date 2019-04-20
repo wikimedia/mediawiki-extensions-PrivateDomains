@@ -4,7 +4,7 @@
 			"Inez Korczyński <korczynski@gmail.com>"
 		]
 	},
-	"privatedomains-desc": "Allows to restrict editing to users with a certain e-mail address",
+	"privatedomains-desc": "Allows to restrict editing to users with a certain email address",
 	"privatedomains-nomanageaccess": "You do not have enough rights to manage the allowed private domains for this wiki.\nOnly wiki bureaucrats and staff members have access.\n\nIf you are not logged in, you probably [[Special:UserLogin|should]].",
 	"privatedomains": "Manage private domains",
 	"privatedomains-ifemailcontact": "Otherwise, please contact [[Special:EmailUser/$1|$1]] if you have any questions.",
