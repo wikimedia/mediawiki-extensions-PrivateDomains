@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Sp5uhe",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
+	"privatedomains-desc": "Umożliwia ograniczanie dostępu do edytowania użytkownikom z niektórymi adresami e-mail",
 	"privatedomains-nomanageaccess": "Nie masz wystarczających uprawnień do zarządzania prywatnymi domenami tej wiki. Robić to mogą wyłącznie członkowie grup biurokraci oraz personel.\n\nJeśli nie jesteś zalogowany możliwe, że powinieneś najpierw [[Special:UserLogin|zalogować się]].",
 	"privatedomains": "Zarządzanie prywatnymi domenami",
 	"privatedomains-ifemailcontact": "W przeciwnym wypadku należy kontaktować się z [[Special:EmailUser/$1|$1]], o ile masz jakieś pytania.",
