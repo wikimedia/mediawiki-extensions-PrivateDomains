@@ -14,5 +14,6 @@
 	"privatedomains-affiliatenamelabel": "Nome da organização:",
 	"privatedomains-emailadminlabel": "Nome do utilizador de contacto para problemas e questões:",
 	"privatedomains-instructions": "É apresentada abaixo a lista de domínios de correio eletrónico permitidos para os editores desta wiki.\nCada linha designa um sufixo de correio eletrónico com permissões de edição.\nDeve existir um sufixo por linha.\nPor exemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>uma.pt<br />unl.pt</code></div>\nIsto permite edições a todos aqueles com um endereço de correio eletrónico <code>nome@uma.pt</code> ou <code>nome@unl.pt</code>.<br />\n<strong>Introduza os domínios permitidos na caixa de texto abaixo e clique \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "gerir domínios privados",
 	"right-privatedomains": "Gerir domínios privados"
 }
