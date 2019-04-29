@@ -136,20 +136,24 @@ class PrivateDomains extends SpecialPage {
 	function displayRestrictionError() {
 		$lang = $this->getLanguage();
 		$out = $this->getOutput();
+		$context = $this->getContext();
 
 		$out->setPageTitle( $this->msg( 'badaccess' )->text() );
 		$out->setHTMLTitle( $this->msg( 'errorpagetitle' )->text() );
 		$out->setRobotPolicy( 'noindex,nofollow' );
 		$out->setArticleRelated( false );
 		$out->mBodytext = '';
+		$groups = User::getGroupsWithPermission( $this->mRestriction );
+		$groupLinks = [];
 
-		$groups = array_map( array( 'User', 'makeGroupLinkWiki' ),
-			User::getGroupsWithPermission( $this->mRestriction ) );
+		foreach ( $groups as $group ) {
+			$groupLinks[] = UserGroupMembership::getLink( $group, $context, $this->getGroupName() );
+		}
 		$privatedomains_emailadmin = PrivateDomains::getParam( 'privatedomains-emailadmin' );
-		if ( $groups ) {
+		if ( $groupLinks ) {
 			$out->addWikiMsg( 'badaccess-groups',
-				$lang->commaList( $groups ),
-				count( $groups ) );
+				$lang->commaList( $groupLinks ),
+				count( $groupLinks ) );
 			if ( $privatedomains_emailadmin != '' ) {
 				$out->addWikiMsg( 'privatedomains-ifemailcontact', $privatedomains_emailadmin );
 			}

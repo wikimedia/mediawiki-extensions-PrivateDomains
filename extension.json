@@ -9,6 +9,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:PrivateDomains",
 	"descriptionmsg": "privatedomains-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
 	"SpecialPages": {
 		"PrivateDomains": "PrivateDomains"
 	},
@@ -21,8 +24,8 @@
 		"PrivateDomainsAlias": "PrivateDomains.alias.php"
 	},
 	"AutoloadClasses": {
-		"PrivateDomains": "SpecialPrivateDomains.php",
-		"PrivateDomainsHooks": "PrivateDomainsHooks.php"
+		"PrivateDomains": "includes/SpecialPrivateDomains.php",
+		"PrivateDomainsHooks": "includes/PrivateDomainsHooks.php"
 	},
 	"Hooks": {
 		"AlternateEdit": [
