@@ -14,5 +14,6 @@
 	"privatedomains-affiliatenamelabel": "Navn på organisasjon:",
 	"privatedomains-emailadminlabel": "Kontakt brukernavn for tilgangsproblemer eller spørsmål:",
 	"privatedomains-instructions": "Her er en liste over e-postdomener som er tillatt for bidragsytere i denne wikien. Hver linje angir et e-postsuffiks som er gitt tilgang til redigering. Denne bør være formatert med ett suffiks per linje. For eksempel:<div style=\"width:20%; padding:5px; border:1px solid grey;\"><code>example.com<br />mail.example.net</code></div>Dette ville tillatt redigeringer fra enhver med e-postadresse <code>hvasomhelst@example.com</code> og <code>hvasomhelst@mail.example.net</code></div><strong>Skriv inn tillatte domener i tekstboksen under og klikk «{{int:saveprefs}}».</strong>",
+	"action-privatedomains": "behandle private domener",
 	"right-privatedomains": "Behandle private domener"
 }
