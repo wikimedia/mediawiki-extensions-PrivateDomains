@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"privatedomains-nomanageaccess": "Tu non ha le derectos necessari pro gerer le dominios private permittite in iste wiki. Solmente le bureaucrates e le personal del wiki ha accesso.\n\nSi tu non ha aperite un session, tu deberea probabilemente [[Special:UserLogin|facer lo]].",
+	"privatedomains-nomanageaccess": "Tu non ha le derectos necessari pro gerer le dominios private permittite in iste wiki. Solmente le bureaucrates e le personal del wiki ha accesso.\n\nSi tu non ha aperite session, tu deberea probabilemente [[Special:UserLogin|facer lo]].",
 	"privatedomains": "Gerer dominios private",
 	"privatedomains-ifemailcontact": "Si non, contacta [[Special:EmailUser/$1|$1]] si tu ha alcun questiones.",
 	"saveprivatedomains-success": "Le alterationes in le dominios private ha essite salveguardate.",
