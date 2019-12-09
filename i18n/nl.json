@@ -17,5 +17,6 @@
 	"privatedomains-affiliatenamelabel": "Organisatienaam:",
 	"privatedomains-emailadminlabel": "Neem contact op met gebruikersnaam voor toegangsproblemen of als u vragen hebt:",
 	"privatedomains-instructions": "Dit is een lijst van e-maildomeinen waar gebruikers van deze wiki een e-mailadres moeten hebben.\nOp elke regel wordt een e-mailachtervoegsel beschreven dat toegang geeft om te bewerken\nOp iedere regel mag één domein beschreven worden.\nVoorbeeld: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\">subdomein.example.com<br />nogeen.example.com</div>\nHierdoor wordt het voor iedereen met een e-mailadres \"watdanook@subdomein.example.com\" of \"watdonaook@nogeen.example.com mogelijk om te bewerken\n<strong>Voer de toegestane e-maildomeinen in het onderstaande venster in en klik op \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "privédomeinen te beheren",
 	"right-privatedomains": "Private domeinen beheren"
 }
