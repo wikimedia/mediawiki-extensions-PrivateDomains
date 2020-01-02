@@ -14,21 +14,21 @@ class PrivateDomainsHooks {
 	 * @return bool
 	 */
 	public static function onAlternateEdit( $editpage ) {
-		global $wgUser;
-		$groups = $wgUser->getEffectiveGroups();
+		$user = $editpage->getContext()->getUser();
+		$groups = $user->getEffectiveGroups();
 		if (
-			$wgUser->isAnon() ||
-			$wgUser->isLoggedIn() && !in_array( 'privatedomains', $groups ) &&
+			$user->isAnon() ||
+			$user->isLoggedIn() && !in_array( 'privatedomains', $groups ) &&
 			!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups )
 		)
 		{
-			global $wgOut;
-			$wgOut->setPageTitle( wfMessage( 'badaccess' )->text() );
-			$wgOut->setHTMLTitle( wfMessage( 'errorpagetitle' )->text() );
+			$out = $editpage->getContext()->getOutput();
+			$out->setPageTitle( wfMessage( 'badaccess' )->text() );
+			$out->setHTMLTitle( wfMessage( 'errorpagetitle' )->text() );
 			$affiliateName = PrivateDomains::getParam( 'privatedomains-affiliatename' );
-			$wgOut->addHTML( '<div class="errorbox" style="width:92%;"><strong>' );
-			$wgOut->addWikiMsg( 'privatedomains-invalidemail', $affiliateName );
-			$wgOut->addHTML( '</strong></div><br /><br /><br />' );
+			$out->addHTML( '<div class="errorbox" style="width:92%;"><strong>' );
+			$out->addWikiMsg( 'privatedomains-invalidemail', $affiliateName );
+			$out->addHTML( '</strong></div><br /><br /><br />' );
 			return false;
 		}
 		return true;
