@@ -5,7 +5,7 @@
 		]
 	},
 	"privatedomains-desc": "Belirli bir e-posta adresiyle kullanıcılara düzenlemeyi kısıtlamanıza izin verir",
-	"privatedomains-nomanageaccess": "Bu wiki için izin verilen özel alan adlarını yönetmek için yeterli haklara sahip değilsiniz.\nYalnızca wiki bürokratları ve personel üyeleri erişebilir.\n\nGiriş yapmadıysanız, muhtemelen [[Special:UserLogin|yapmalısınız]].",
+	"privatedomains-nomanageaccess": "Bu viki için izin verilen özel alan adlarını yönetmek için yeterli haklara sahip değilsiniz.\nYalnızca viki bürokratları ve personel üyeleri erişebilir.\n\nGiriş yapmadıysanız, muhtemelen [[Special:UserLogin|yapmalısınız]].",
 	"privatedomains": "Özel alanları yönet",
 	"privatedomains-ifemailcontact": "Aksi takdirde, herhangi bir sorunuz olursa, lütfen [[Special:EmailUser/$1|$1]] ile iletişime geçin.",
 	"saveprivatedomains-success": "Özel alan adı değişiklikleri kaydedildi.",
