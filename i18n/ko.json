@@ -10,7 +10,7 @@
 	"privatedomains-nomanageaccess": "이 위키의 허용된 개인 도메인을 관리할 권한이 부족합니다.\n위키 사무관과 직원 권한만 접근합니다.\n\n로그인하고 있지 않으면, [[Special:UserLogin|로그인]]을 해주세요.",
 	"privatedomains": "개인 도메인 관리",
 	"privatedomains-ifemailcontact": "질문이 있으면 [[Special:EmailUser/$1|$1]]님에게 문의해 주세요.",
-	"saveprivatedomains-success": "개인 도메인 바뀜이 저장됨.",
+	"saveprivatedomains-success": "개인 도메인 변경이 저장되었습니다.",
 	"privatedomains-invalidemail": "죄송합니다. 이 위키에 접근할 수 있는 사용자는 $1 회원으로 제한하고 있습니다.\n$1님과 연결된 이메일 주소를 갖고 있다면 [[Special:Preferences|계정 환경 설정 페이지]]에서 당신의 이메일 주소를 입력하거나 다시 확인할 수 있습니다.",
 	"privatedomains-affiliatenamelabel": "조직 이름:",
 	"privatedomains-emailadminlabel": "접속 문제 및 쿼리 때문에 사용자이름에 문의하기:",
