@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe",
 			"Chrumps",
+			"Rail",
 			"Railfail536",
-			"Rail"
+			"Sp5uhe"
 		]
 	},
 	"privatedomains-desc": "Umożliwia ograniczanie dostępu do edytowania użytkownikom z niektórymi adresami e-mail",

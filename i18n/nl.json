@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mainframe98",
 			"Mark van Alphen",
 			"Mitchel Corstjens",
 			"Siebrand",
-			"Siebrand Mazeland",
-			"Mainframe98"
+			"Siebrand Mazeland"
 		]
 	},
 	"privatedomains-desc": "Biedt de mogelijkheid om bewerken te beperken tot gebruikers met een bepaald e-mailadres",

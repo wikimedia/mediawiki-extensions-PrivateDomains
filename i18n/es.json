@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Pertile",
+			"Dgstranz",
 			"Macofe",
-			"Dgstranz"
+			"Pertile"
 		]
 	},
 	"privatedomains-desc": "Permite restringir la edición a los usuarios con una determinada dirección de correo electrónico",

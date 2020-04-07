@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
-			"Andibing"
+			"Andibing",
+			"Shirayuki"
 		]
 	},
 	"privatedomains-nomanageaccess": "You do not have enough rights to manage the allowed private domains for this Wiki.\nOnly Wiki bureaucrats and staff members have access.\n\nIf you are not logged in, you probably [[Special:UserLogin|should]].",
