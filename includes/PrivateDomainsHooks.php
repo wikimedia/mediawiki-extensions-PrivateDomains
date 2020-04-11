@@ -20,8 +20,7 @@ class PrivateDomainsHooks {
 			$user->isAnon() ||
 			$user->isLoggedIn() && !in_array( 'privatedomains', $groups ) &&
 			!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups )
-		)
-		{
+		) {
 			$out = $editpage->getContext()->getOutput();
 			$out->setPageTitle( wfMessage( 'badaccess' )->text() );
 			$out->setHTMLTitle( wfMessage( 'errorpagetitle' )->text() );

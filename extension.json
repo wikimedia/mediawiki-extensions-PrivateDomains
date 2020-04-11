@@ -13,7 +13,7 @@
 		"MediaWiki": ">= 1.33.0"
 	},
 	"SpecialPages": {
-		"PrivateDomains": "PrivateDomains"
+		"SpecialPrivateDomains": "PrivateDomains"
 	},
 	"MessagesDirs": {
 		"PrivateDomains": [
@@ -24,8 +24,8 @@
 		"PrivateDomainsAlias": "PrivateDomains.alias.php"
 	},
 	"AutoloadClasses": {
-		"PrivateDomains": "includes/SpecialPrivateDomains.php",
-		"PrivateDomainsHooks": "includes/PrivateDomainsHooks.php"
+		"PrivateDomainsHooks": "includes/PrivateDomainsHooks.php",
+		"SpecialPrivateDomains": "includes/SpecialPrivateDomains.php"
 	},
 	"Hooks": {
 		"AlternateEdit": [

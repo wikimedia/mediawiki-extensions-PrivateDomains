@@ -8,14 +8,14 @@
  * @author Inez Korczyński <korczynski@gmail.com>
  * @author Jack Phoenix
  * @link https://www.mediawiki.org/wiki/Extension:PrivateDomains Documentation
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  */
 
 /**
  * Main extension class
  * Defines the new special page, Special:PrivateDomains
  */
-class PrivateDomains extends SpecialPage {
+class SpecialPrivateDomains extends SpecialPage {
 
 	/**
 	 * Constructor -- set up the new special page
@@ -87,6 +87,8 @@ class PrivateDomains extends SpecialPage {
 
 	/**
 	 * Shows the main form in Special:PrivateDomains
+	 *
+	 * @param string $msg
 	 */
 	private function mainForm( $msg ) {
 		$out = $this->getOutput();
@@ -149,7 +151,7 @@ class PrivateDomains extends SpecialPage {
 		foreach ( $groups as $group ) {
 			$groupLinks[] = UserGroupMembership::getLink( $group, $context, $this->getGroupName() );
 		}
-		$privatedomains_emailadmin = PrivateDomains::getParam( 'privatedomains-emailadmin' );
+		$privatedomains_emailadmin = self::getParam( 'privatedomains-emailadmin' );
 		if ( $groupLinks ) {
 			$out->addWikiMsg( 'badaccess-groups',
 				$lang->commaList( $groupLinks ),
@@ -163,6 +165,9 @@ class PrivateDomains extends SpecialPage {
 		$out->returnToMain();
 	}
 
+	/**
+	 * @return string
+	 */
 	protected function getGroupName() {
 		return 'wiki';
 	}
