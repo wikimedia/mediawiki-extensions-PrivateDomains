@@ -13,7 +13,7 @@
 		"MediaWiki": ">= 1.33.0"
 	},
 	"SpecialPages": {
-		"SpecialPrivateDomains": "PrivateDomains"
+		"PrivateDomains": "SpecialPrivateDomains"
 	},
 	"MessagesDirs": {
 		"PrivateDomains": [
