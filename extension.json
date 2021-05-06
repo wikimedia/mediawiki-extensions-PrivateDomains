@@ -10,7 +10,7 @@
 	"descriptionmsg": "privatedomains-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.33.0"
+		"MediaWiki": ">= 1.34.0"
 	},
 	"SpecialPages": {
 		"PrivateDomains": "SpecialPrivateDomains"

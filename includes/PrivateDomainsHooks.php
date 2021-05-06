@@ -18,7 +18,7 @@ class PrivateDomainsHooks {
 		$groups = $user->getEffectiveGroups();
 		if (
 			$user->isAnon() ||
-			$user->isLoggedIn() && !in_array( 'privatedomains', $groups ) &&
+			$user->isRegistered() && !in_array( 'privatedomains', $groups ) &&
 			!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups )
 		) {
 			$out = $editpage->getContext()->getOutput();
