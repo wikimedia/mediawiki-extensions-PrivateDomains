@@ -10,7 +10,7 @@
 	"descriptionmsg": "privatedomains-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.36.0"
 	},
 	"SpecialPages": {
 		"PrivateDomains": "SpecialPrivateDomains"
@@ -27,16 +27,18 @@
 		"PrivateDomainsHooks": "includes/PrivateDomainsHooks.php",
 		"SpecialPrivateDomains": "includes/SpecialPrivateDomains.php"
 	},
+	"HookHandlers": {
+		"default": {
+			"class": "PrivateDomainsHooks",
+			"services": [
+				"UserGroupManager"
+			]
+		}
+	},
 	"Hooks": {
-		"AlternateEdit": [
-			"PrivateDomainsHooks::onAlternateEdit"
-		],
-		"UserLoggedIn": [
-			"PrivateDomainsHooks::onUserLoginComplete"
-		],
-		"ConfirmEmailComplete": [
-			"PrivateDomainsHooks::onUserLoginComplete"
-		]
+		"AlternateEdit": "default",
+		"UserLoggedIn": "PrivateDomainsHooks::onUserLoginComplete",
+		"ConfirmEmailComplete": "PrivateDomainsHooks::onUserLoginComplete"
 	},
 	"AvailableRights": [
 		"privatedomains"

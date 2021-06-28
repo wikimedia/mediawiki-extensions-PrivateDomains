@@ -1,10 +1,26 @@
 <?php
+
+use MediaWiki\Hook\AlternateEditHook;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserGroupManager;
+
 /**
  * Hooked functions used by the PrivateDomains extension.
  *
  * @file
  */
-class PrivateDomainsHooks {
+class PrivateDomainsHooks implements AlternateEditHook {
+	/**
+	 * @var UserGroupManager
+	 */
+	private $userGroupManager;
+
+	/**
+	 * @param UserGroupManager $userGroupManager
+	 */
+	public function __construct( UserGroupManager $userGroupManager ) {
+		$this->userGroupManager = $userGroupManager;
+	}
 
 	/**
 	 * If user isn't a member of any of the allowed user groups, then deny
@@ -13,9 +29,9 @@ class PrivateDomainsHooks {
 	 * @param EditPage $editpage
 	 * @return bool
 	 */
-	public static function onAlternateEdit( $editpage ) {
+	public function onAlternateEdit( $editpage ) {
 		$user = $editpage->getContext()->getUser();
-		$groups = $user->getEffectiveGroups();
+		$groups = $this->userGroupManager->getUserEffectiveGroups( $user );
 		if (
 			$user->isAnon() ||
 			$user->isRegistered() && !in_array( 'privatedomains', $groups ) &&
@@ -44,6 +60,7 @@ class PrivateDomainsHooks {
 	 * @return bool
 	 */
 	public static function onUserLoginComplete( $user ) {
+		$userGroupManager = MediaWikiServices::getInstance()->getUserGroupManager();
 		if ( $user->isEmailConfirmed() ) {
 			$domainsStr = PrivateDomains::getParam( 'privatedomains-domains' );
 			if ( $domainsStr != '' ) {
@@ -55,13 +72,13 @@ class PrivateDomainsHooks {
 				foreach ( $domainsArr as $allowedDomain ) {
 					$allowedDomain = strtolower( $allowedDomain );
 					if ( preg_match( "/.*?$allowedDomain$/", $emailDomain ) ) {
-						$user->addGroup( 'privatedomains' );
+						$userGroupManager->addUserToGroup( $user, 'privatedomains' );
 						return true;
 					}
 				}
 			}
 		}
-		$user->removeGroup( 'privatedomains' );
+		$userGroupManager->removeUserFromGroup( $user, 'privatedomains' );
 		return true;
 	}
 
