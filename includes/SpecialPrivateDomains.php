@@ -104,7 +104,7 @@ class SpecialPrivateDomains extends SpecialPage {
 		$this->checkReadOnly();
 
 		// Is the user blocked?
-		if ( $user->isBlocked() ) {
+		if ( $user->getBlock() ) {
 			throw new UserBlockedError( $user->getBlock() );
 		}
 
