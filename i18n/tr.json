@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"privatedomains-desc": "Belirli bir e-posta adresiyle kullanıcılara düzenlemeyi kısıtlamanıza izin verir",
-	"privatedomains-nomanageaccess": "Bu viki için izin verilen özel alan adlarını yönetmek için yeterli haklara sahip değilsiniz.\nYalnızca viki bürokratları ve personel üyeleri erişebilir.\n\nGiriş yapmadıysanız, muhtemelen [[Special:UserLogin|yapmalısınız]].",
+	"privatedomains-nomanageaccess": "Bu viki için izin verilen özel alan adlarını yönetmek için yeterli haklara sahip değilsiniz.\nYalnızca viki bürokratları ve personel üyeleri erişebilir.\n\nOturum açmadıysanız, muhtemelen [[Special:UserLogin|yapmalısınız]].",
 	"privatedomains": "Özel alanları yönet",
 	"privatedomains-ifemailcontact": "Aksi takdirde, herhangi bir sorunuz olursa, lütfen [[Special:EmailUser/$1|$1]] ile iletişime geçin.",
 	"saveprivatedomains-success": "Özel alan adı değişiklikleri kaydedildi.",
-	"privatedomains-invalidemail": "Maalesef, bu vikiye erişim, $1 üyelerle sınırlandırıldı.\n$1 bağlı bir e-posta adresiniz varsa, [[Special:Preferences|hesap tercih sayfasınıza]] e-posta adresinizi girebilir veya onaylayabilirsiniz.\nSayfaları hala bu wikide görüntüleyebilirsiniz, ancak düzenleyemezsiniz.",
+	"privatedomains-invalidemail": "Maalesef, bu vikiye erişim, $1 üyelerle sınırlandırıldı.\n$1 bağlı bir e-posta adresiniz varsa, [[Special:Preferences|hesap tercih sayfasınıza]] e-posta adresinizi girebilir veya onaylayabilirsiniz.\nSayfaları hala bu vikide görüntüleyebilirsiniz, ancak düzenleyemezsiniz.",
 	"privatedomains-affiliatenamelabel": "Organizasyonun adı:",
 	"privatedomains-emailadminlabel": "Erişim sorunları veya sorguları için kullanıcı adıyla iletişime geçin:",
-	"privatedomains-instructions": "Bu wiki'nin editörleri için izin verilen e-posta alan adlarının listesi.\nHer satır, düzenleme için erişim izni verilen bir e-posta soneki belirler.\nBu satır başına bir sonek ile biçimlendirilmelidir.\nÖrneğin: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>ornek.com<br />posta.ornek.net</code></div>\nBu, <code>herneyse@ornek.com</code> veya <code>whatever@posta.ornek.net</code> e-posta adresine sahip herhangi bir kişiden düzenleme yapılmasını sağlar\n<strong>Metin kutusuna izin verilen alanları girin ve \"{{int:saveprefs}}\" seçeneğini tıklayın.</strong>",
+	"privatedomains-instructions": "Bu vikinin editörleri için izin verilen e-posta alan adlarının listesi.\nHer satır, düzenleme için erişim izni verilen bir e-posta soneki belirler.\nBu satır başına bir sonek ile biçimlendirilmelidir.\nÖrneğin: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>ornek.com<br />posta.ornek.net</code></div>\nBu, <code>herneyse@ornek.com</code> veya <code>herneyse@posta.ornek.net</code> e-posta adresine sahip herhangi bir kişiden düzenleme yapılmasını sağlar\n<strong>Metin kutusuna izin verilen alanları girin ve \"{{int:saveprefs}}\" seçeneğini tıklayın.</strong>",
 	"action-privatedomains": "özel alanları yönet",
 	"right-privatedomains": "Özel alanları yönet"
 }
