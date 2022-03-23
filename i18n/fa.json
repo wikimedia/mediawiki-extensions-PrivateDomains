@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Beginneruser",
 			"Ebraminio",
 			"Mjbmr"
 		]
 	},
-	"privatedomains-nomanageaccess": "شما حق کافی برای ادارهٔ دامنه‌های خصوصی اجازه داده شده برای این ویکی را ندارید. \nتنها مأمور اداری و اعضای کارمند دسترسی دارند.\n\nاگر شما وارد سامانه نشده‌اید، احتمالاً [[Special:UserLogin|باید]] بشوید.",
+	"privatedomains-nomanageaccess": "شما حق کافی برای ادارهٔ دامنه‌های خصوصی اجازه داده شده برای این ویکی را ندارید. \nتنها دیوان‌سالاران و اعضای کارمند دسترسی دارند.\n\nاگر شما وارد سامانه نشده‌اید، احتمالاً [[Special:UserLogin|باید]] بشوید.",
 	"privatedomains": "مدیریت دامنه‌های خصوصی",
 	"privatedomains-ifemailcontact": "در غیر این صورت، اگر هرگونه سوالی دارید با [[Special:EmailUser/$1|$1]] لطفاً تماس بگیرید.",
 	"saveprivatedomains-success": "تغییرات دامنه‌های خصوصی دخیره شد.",
