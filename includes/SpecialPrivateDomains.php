@@ -67,18 +67,24 @@ class SpecialPrivateDomains extends SpecialPage {
 	 */
 	public function execute( $par ) {
 		$request = $this->getRequest();
+		$user = $this->getUser();
 
 		$this->setHeaders();
 
 		$msg = '';
 
 		if ( $request->wasPosted() ) {
-			if ( $request->getText( 'action' ) == 'submit' ) {
+			$tokenOk = $user->matchEditToken( $request->getVal( 'wpEditToken' ) );
+			if ( !$tokenOk ) {
+				$msg = $this->msg( 'sessionfailure' )->parse();
+			}
+
+			if ( $request->getText( 'action' ) == 'submit' && $tokenOk ) {
 				$this->saveParam( 'privatedomains-domains', $request->getText( 'listdata' ) );
 				$this->saveParam( 'privatedomains-affiliatename', $request->getText( 'affiliateName' ) );
 				$this->saveParam( 'privatedomains-emailadmin', $request->getText( 'optionalPrivateDomainsEmail' ) );
 
-				$msg = $this->msg( 'saveprivatedomains-success' )->text();
+				$msg = $this->msg( 'saveprivatedomains-success' )->escaped();
 			}
 		}
 
@@ -119,13 +125,14 @@ class SpecialPrivateDomains extends SpecialPage {
 		// Render the main form for changing PrivateDomains' settings.
 		$out->addHTML(
 			'<form name="privatedomains" id="privatedomains" method="post" action="' . $action . '">
-		<label for="affiliateName"><br />' . $this->msg( 'privatedomains-affiliatenamelabel' )->text() . ' </label>
+		<label for="affiliateName"><br />' . $this->msg( 'privatedomains-affiliatenamelabel' )->escaped() . ' </label>
 		<input type="text" name="affiliateName" width="30" value="' . $this->getParam( 'privatedomains-affiliatename' ) . '" />
-		<label for="optionalEmail"><br />' . $this->msg( 'privatedomains-emailadminlabel' )->text() . ' </label>
+		<label for="optionalEmail"><br />' . $this->msg( 'privatedomains-emailadminlabel' )->escaped() . ' </label>
 		<input type="text" name="optionalPrivateDomainsEmail" value="' . $this->getParam( 'privatedomains-emailadmin' ) . '" />' );
 		$out->addWikiMsg( 'privatedomains-instructions' );
 		$out->addHTML( '<textarea name="listdata" rows="10" cols="40">' . $this->getParam( 'privatedomains-domains' ) . '</textarea>' );
-		$out->addHTML( '<br /><input type="submit" name="saveList" value="' . $this->msg( 'saveprefs' )->plain() . '" />' );
+		$out->addHTML( Html::hidden( 'wpEditToken', $user->getEditToken() ) );
+		$out->addHTML( '<br /><input type="submit" name="saveList" value="' . $this->msg( 'saveprefs' )->escaped() . '" />' );
 		$out->addHTML( '</form>' );
 	}
 
