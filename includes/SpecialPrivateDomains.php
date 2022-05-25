@@ -38,8 +38,9 @@ class SpecialPrivateDomains extends SpecialPage {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
 		$page = WikiPage::factory( $nameTitle );
 
-		$page->doEditContent(
+		$page->doUserEditContent(
 			ContentHandler::makeContent( $value, $nameTitle ),
+			$this->getUser(),
 			''
 		);
 	}
