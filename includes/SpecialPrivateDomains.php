@@ -11,6 +11,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Main extension class
  * Defines the new special page, Special:PrivateDomains
@@ -36,7 +38,7 @@ class SpecialPrivateDomains extends SpecialPage {
 	 */
 	function saveParam( $name, $value ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
-		$page = WikiPage::factory( $nameTitle );
+		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nameTitle );
 
 		$page->doUserEditContent(
 			ContentHandler::makeContent( $value, $nameTitle ),
@@ -54,7 +56,7 @@ class SpecialPrivateDomains extends SpecialPage {
 	static function getParam( $name ) {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
 		if ( $nameTitle->exists() ) {
-			$page = new WikiPage( $nameTitle );
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nameTitle );
 			return $page->getContent()->getNativeData();
 		} else {
 			return '';
