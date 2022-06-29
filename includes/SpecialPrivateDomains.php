@@ -59,10 +59,12 @@ class SpecialPrivateDomains extends SpecialPage {
 		$nameTitle = Title::newFromText( $name, NS_MEDIAWIKI );
 		if ( $nameTitle->exists() ) {
 			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $nameTitle );
-			return $page->getContent()->getNativeData();
-		} else {
-			return '';
+			$content = $page->getContent();
+			if ( $content instanceof TextContent ) {
+				return $content->getText();
+			}
 		}
+		return '';
 	}
 
 	/**
