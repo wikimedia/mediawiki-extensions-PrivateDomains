@@ -3,11 +3,12 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Huñvreüs"
 		]
 	},
 	"privatedomains": "Merañ an domanioù prevez",
-	"privatedomains-ifemailcontact": "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]]  m'ho pez tra pe dra da c'houlenn.",
+	"privatedomains-ifemailcontact": "A-hend-all, kit e darempred gant [[Special:Emailuser/$1|$1]] mar plij m'ho peus goulennoù.",
 	"saveprivatedomains-success": "Kemmoù en domanioù prevez saveteet.",
 	"privatedomains-invalidemail": "Ma digarezit, Miret eo ar moned d'ar wiki-mañ evit izili $1.  M'ho peus ur chomlec'h postel emezelet ouzh $1 e challit mont e-barzh pe adkarnaat ho chomlec'h postel war pajenn zibaboù ar gont [[Special:Preferences|amañ]]. Gallout a rit gwelet pajennoù ar wiki-mañ, met ne c'hallit ket kemmañ anezho.",
 	"privatedomains-affiliatenamelabel": "Anv an aozadur :",
