@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"privatedomains-instructions": "Tu je seznam e-poštnih domen, ki so dovoljene urejevalcem tega vikija.\nVsaka vrstica označuje e-poštno končnico, ki ji je omogočen dostop za urejanje.\nSeznam mora biti oblikovan z eno končnico na vrstico.\nZgled:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nTo bi omogočilo urejanje vsem, ki imajo elektronski naslov <code>karkoli@example.com</code> ali <code>karkoli@mail.example.net</code>.\n<strong>V besedilno polje vpišite dovoljene domene in kliknite »{{int:saveprefs}}«.</strong>"
+}
