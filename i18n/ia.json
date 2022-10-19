@@ -4,6 +4,7 @@
 			"McDutchie"
 		]
 	},
+	"privatedomains-desc": "Permitte limitar le modification a usatores con un certe adresse de e-mail",
 	"privatedomains-nomanageaccess": "Tu non ha le derectos necessari pro gerer le dominios private permittite in iste wiki. Solmente le bureaucrates e le personal del wiki ha accesso.\n\nSi tu non ha aperite session, tu deberea probabilemente [[Special:UserLogin|facer lo]].",
 	"privatedomains": "Gerer dominios private",
 	"privatedomains-ifemailcontact": "Si non, contacta [[Special:EmailUser/$1|$1]] si tu ha alcun questiones.",
@@ -12,5 +13,6 @@
 	"privatedomains-affiliatenamelabel": "Nomine del organisation:",
 	"privatedomains-emailadminlabel": "Nomine de usator de contacto pro problemas de accesso o questiones:",
 	"privatedomains-instructions": "Ecce le lista de dominios de e-mail permittite pro le contributores de iste wiki. Cata linea designa un suffixo de e-mail que da accesso al modification. Isto debe esser formatate con un suffixo per linea.\nPer exemplo:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br /> mail.example.net</code></div>Isto permitterea le modificationes de omne persona con le adresse de e-mail <code>quecunque@example.com</code> o <code>quecunque@mail.example.net</code>\n<strong>Entra le dominios permittite in le quadro de texto, e clicca sur \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "gerer dominios private",
 	"right-privatedomains": "Gerer dominios private"
 }
