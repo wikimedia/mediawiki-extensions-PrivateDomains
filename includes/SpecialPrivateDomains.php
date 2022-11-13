@@ -155,7 +155,8 @@ class SpecialPrivateDomains extends SpecialPage {
 		$out->setRobotPolicy( 'noindex,nofollow' );
 		$out->setArticleRelated( false );
 		$out->mBodytext = '';
-		$groups = User::getGroupsWithPermission( $this->mRestriction );
+		$groups = MediaWikiServices::getInstance()->getGroupPermissionsLookup()
+			->getGroupsWithPermission( $this->mRestriction );
 		$groupLinks = [];
 
 		foreach ( $groups as $group ) {
