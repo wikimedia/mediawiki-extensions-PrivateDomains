@@ -5,5 +5,15 @@
 			"Guycn2"
 		]
 	},
+	"privatedomains-desc": "אפשרות להגביל עריכה למשתמשים עם כתובות דואר אלקטרוני מסוימת",
+	"privatedomains-nomanageaccess": "אין לך מספיק הרשאות לנהל את התחימים הפרטיים המותרים עבור הוויקי הזה.\nרק לבירוקרטים של הוויקי ולאנשי סגל יש גישה.\n\nאם לא נכנסת לחשבון, כנראה [[Special:UserLogin|צריך להיכנס]].",
+	"privatedomains": "ניהול תחומים פרטיים",
+	"privatedomains-ifemailcontact": "אחרת, נא ליצור קשר עם [[Special:EmailUser/$1|$1]] אם יש לך שאלות.",
+	"saveprivatedomains-success": "השינויים בתחומים פרטיים נשמרו.",
+	"privatedomains-invalidemail": "מצטערים, הגישה ולויקי הזה מוגבלת לחברים של $1.\nאם יש לך כתובת דוא\"ל שמזוהה עם $1, באפשרותף להזין או לאשר מחדש את כתובת הדוא\"ל שלך ב[[Special:Preferences|דף העדפות החשבון]]. עדיין יש לך אפשרות להציג דפים בוויקי הזה, אך לא תהיה לך אפשרות לערוך.",
+	"privatedomains-affiliatenamelabel": "שם הארגון:",
+	"privatedomains-emailadminlabel": "שם המשתמש ליצירת קשר בנושא בעיות גישה או שאלות:",
+	"privatedomains-instructions": "להלן רשימת תחומי הדוא\"ל המותרים לעורכי הוויקי הזה.\nכל שורה מציינת סיומת דוא\"ל שניתנת גישה לעריכה.\nיש לעצב זאת בסיומת אחת בכל שורה.\nלמשל:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nזה יאפשר עריכות מכל מי שיש לו כתובת דוא\"ל <code>whatever@example.com</code> או <code>whatever@mail.example.net</code> \n<strong>נא להזין את התחומים המותרים בתיבת הטקסט, וללחוץ על \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "לנהל תחומים פרטיים",
 	"right-privatedomains": "ניהול תחומים פרטיים"
 }
