@@ -40,7 +40,7 @@ class PrivateDomainsHooks implements AlternateEditHook {
 			$out = $editpage->getContext()->getOutput();
 			$out->setPageTitle( wfMessage( 'badaccess' )->text() );
 			$out->setHTMLTitle( wfMessage( 'errorpagetitle' )->text() );
-			$affiliateName = PrivateDomains::getParam( 'privatedomains-affiliatename' );
+			$affiliateName = SpecialPrivateDomains::getParam( 'privatedomains-affiliatename' );
 			$out->addHTML( '<div class="errorbox" style="width:92%;"><strong>' );
 			$out->addWikiMsg( 'privatedomains-invalidemail', $affiliateName );
 			$out->addHTML( '</strong></div><br /><br /><br />' );
@@ -62,7 +62,7 @@ class PrivateDomainsHooks implements AlternateEditHook {
 	public static function onUserLoginComplete( $user ) {
 		$userGroupManager = MediaWikiServices::getInstance()->getUserGroupManager();
 		if ( $user->isEmailConfirmed() ) {
-			$domainsStr = PrivateDomains::getParam( 'privatedomains-domains' );
+			$domainsStr = SpecialPrivateDomains::getParam( 'privatedomains-domains' );
 			if ( $domainsStr != '' ) {
 				$email = strtolower( $user->mEmail );
 				// get suffix domain name
