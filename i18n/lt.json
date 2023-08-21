@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"privatedomains-desc": "Leidžia apriboti redagavimą naudotojams, turintiems tam tikrą el. pašto adresą",
+	"privatedomains-nomanageaccess": "Jūs neturite pakankamai teisių valdyti leidžiamus privačius šios viki domenus.\nPrieiga turi tik viki biurokratai ir darbuotojai.\n\nJei nesate prisijungę, tikriausiai [[Special:UserLogin|turėtumėte prisijungti]].",
+	"privatedomains": "Tvarkyti privačius domenus",
+	"privatedomains-ifemailcontact": "Kitu atveju susisiekite su [[Special:EmailUser/$1|$1]], jei turite klausimų.",
+	"saveprivatedomains-success": "Privačių domenų pakeitimai išsaugoti.",
+	"privatedomains-invalidemail": "Atsiprašome, prie šio viki gali prieiti tik $1 nariai.\nJei turite el. pašto adresą, susietą su $1, galite įvesti arba iš naujo patvirtinti savo el. pašto adresą [[Special:Preferences|paskyros nuostatų puslapyje]].\nVis tiek galite peržiūrėti puslapius šioje viki, bet negalite redaguoti.",
+	"privatedomains-affiliatenamelabel": "Organizacijos pavadinimas:",
+	"privatedomains-emailadminlabel": "Kontaktinis naudotojo vardas, jei kyla problemų ar klausimų dėl prieigos:",
+	"privatedomains-instructions": "Štai sąrašas el. pašto domenų, kurie leidžiami šios viki redaktoriams.\nKiekviena eilutė nurodo el. pašto galūnę, kuriai suteikiama redagavimo prieiga.\nTurėtų būti formatuojama kaip viena galūnė eilutėje.\nPavyzdžiui: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nTai leistu keitimus iš bet kokio asmens, su el. pašto adresu <code>whatever@example.com</code> ar <code>whatever@mail.example.net</code>\n<strong>Įveskite leistinus domenus teksto laukelyje ir paspauskite „{{int:saveprefs}}“.</strong>",
+	"action-privatedomains": "tvarkyti privačius domenus",
+	"right-privatedomains": "Tvarkyti privačius domenus"
+}
