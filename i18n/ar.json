@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"ديفيد"
+			"ديفيد",
+			"علاء"
 		]
 	},
 	"privatedomains-desc": "يسمح بتقييد التحرير للمستخدمين ذوي عنوان بريد إلكتروني معين",
-	"privatedomains-nomanageaccess": "ليست لديك صلاحيات كافية لإدارة النطاقات الخاصة المسموح بها لهذا الويكي; \nفقط البيروقراطيون وموظفو الويكي يمكنهم الوصول. \n\nإذا لم تقم بتسجيل الدخول، فأنت على الأرجح [[Special:UserLogin|يجب عليك القيام بهذا]].",
+	"privatedomains-nomanageaccess": "ليس لديك صلاحيات كافية لإدارة النطاقات الخاصة المسموح بها لهذا الويكي; \nيمتلك الوصول فقط فقط البيروقراطيون والموظفون. \n\nإذا لم تقم بتسجيل الدخول، فأنت على الأرجح [[Special:UserLogin|يجب عليك القيام بهذا]].",
 	"privatedomains": "إدارة النطاقات الخاصة",
 	"privatedomains-ifemailcontact": "Otherwise, please contact [[Special:EmailUser/$1|$1]] if you have any questions.",
 	"saveprivatedomains-success": "تغييرات النطاقات الخاصة المحفوظة.",
