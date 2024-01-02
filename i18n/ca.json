@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"SMP"
 		]
 	},
-	"action-privatedomains": "gestionar els dominis privats"
+	"action-privatedomains": "gestionar els dominis privats",
+	"right-privatedomains": "Gestionar els dominis privats"
 }
