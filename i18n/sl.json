@@ -7,7 +7,7 @@
 	"privatedomains-desc": "Omogoča omejitev urejanja na uporabnike z določenim e-poštnim naslovom",
 	"privatedomains-nomanageaccess": "Nimate dovolj pravic za upravljanje dovoljenih zasebnih domen za ta viki.\nDostop imajo samo viki birokrati in člani osebja.\n\nČe niste prijavljeni, bi se verjetno morali [[Special:UserLogin|prijaviti]].",
 	"privatedomains": "Upravljanje zasebnih domen",
-	"privatedomains-ifemailcontact": "V nasprotnem primeru se v primeru kakršnih koli vprašanj obrnite na [[Special:EmailUser/$1|$1]].",
+	"privatedomains-ifemailcontact": "Sicer se v primeru kakršnih koli vprašanj obrnite na [[Special:EmailUser/$1|$1]].",
 	"saveprivatedomains-success": "Spremembe zasebnih domen so shranjene.",
 	"privatedomains-invalidemail": "Oprostite, dostop do tega vikija je omejen na člane $1.\nČe imate e-poštni naslov, povezan z $1, lahko vnesete ali znova potrdite svoj e-poštni naslov na [[Special:Preferences|strani z nastavitvami računa]].\nŠe vedno si lahko ogledate strani v tem vikiju, vendar jih ne boste mogli urejati.",
 	"privatedomains-affiliatenamelabel": "Ime organizacije:",
