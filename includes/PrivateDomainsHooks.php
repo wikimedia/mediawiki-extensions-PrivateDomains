@@ -34,8 +34,8 @@ class PrivateDomainsHooks implements AlternateEditHook {
 		$groups = $this->userGroupManager->getUserEffectiveGroups( $user );
 		if (
 			$user->isAnon() ||
-			$user->isRegistered() && !in_array( 'privatedomains', $groups ) &&
-			!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups )
+			( $user->isRegistered() && !in_array( 'privatedomains', $groups ) &&
+				!in_array( 'staff', $groups ) && !in_array( 'bureaucrat', $groups ) )
 		) {
 			$out = $editpage->getContext()->getOutput();
 			$out->setPageTitle( wfMessage( 'badaccess' )->text() );
