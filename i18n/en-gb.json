@@ -5,8 +5,5 @@
 			"Shirayuki"
 		]
 	},
-	"privatedomains-nomanageaccess": "You do not have enough rights to manage the allowed private domains for this Wiki.\nOnly Wiki bureaucrats and staff members have access.\n\nIf you are not logged in, you probably [[Special:UserLogin|should]].",
-	"privatedomains-invalidemail": "Sorry, access to this Wiki is restricted to members of $1.\nIf you have an email address affiliated with $1, you can enter or reconfirm your email address on your [[Special:Preferences|account preference page]].\nYou can still view pages on this Wiki, but you will be unable to edit.",
-	"privatedomains-affiliatenamelabel": "Name of organisation:",
-	"privatedomains-instructions": "Here is the list of email domains allowed for editors of this Wiki.\nEach line designates an email suffix that is given access for editing.\nThis should be formatted with one suffix per line.\nFor example:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nThis would allow edits from anyone with the email address <code>whatever@example.com</code> or <code>whatever@mail.example.net</code>\n<strong>Enter the allowed domains in the text box, and click \"{{int:saveprefs}}\".</strong>"
+	"privatedomains-affiliatenamelabel": "Name of organisation:"
 }
