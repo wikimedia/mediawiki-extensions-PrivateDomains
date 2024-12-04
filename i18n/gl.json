@@ -15,5 +15,6 @@
 	"privatedomains-affiliatenamelabel": "Nome da organización:",
 	"privatedomains-emailadminlabel": "Nome de usuario de contacto para os problemas de acceso ou consultas:",
 	"privatedomains-instructions": "Aquí está a lista de dominios de correo electrónico autorizados para os editores deste wiki.\nCada liña designa un sufixo que dá acceso á edición.\nA lista debe estar ordenada de xeito que haxa un sufixo por liña.\nPor exemplo: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nIsto permitirá as edicións de aqueles que teña un enderezo de correo electrónico <code>oquesexa@example.com</code> or <code>oquesexa@mail.example.net</code>\n<strong>Insira os dominios autorizados no cadro de texto de embaixo e prema en \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "xestionar dominios privados",
 	"right-privatedomains": "Xestionar dominios privados"
 }
