@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Title\Title;
 use MediaWiki\Hook\AlternateEditHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserGroupManager;
