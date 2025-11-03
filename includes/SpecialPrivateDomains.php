@@ -11,7 +11,9 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 /**
  * Main extension class
