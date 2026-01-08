@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Stefan2255"
 		]
 	},
+	"privatedomains-desc": "Tillåter att begränsa redigering till användare med en viss e-postadress",
 	"privatedomains-nomanageaccess": "Du saknar tillräcklig behörighet för att hantera de tillåtna privata domänerna för denna wiki.\nEndast wikibyråkrater och personal har tillgång.\n\nOm du inte är inloggad borde du nog [[Special:UserLogin|göra det]].",
 	"privatedomains": "Hantera privata domäner",
 	"privatedomains-ifemailcontact": "Annars, kontakta [[Special:EmailUser/$1|$1]] om du har några frågor.",
@@ -12,6 +14,7 @@
 	"privatedomains-invalidemail": "Tyvärr, tillgång till denna wiki är begränsat till medlemmar av $1.\nOm du har en e-postadress knuten till $1 kan du ange eller bekräfta din e-postadress på din användares [[Special:Preferences|inställningssida]].\nDu kan fortfarande se sidor på denna wiki, men du kan inte redigera.",
 	"privatedomains-affiliatenamelabel": "Namn på organisationen:",
 	"privatedomains-emailadminlabel": "Kontakta användarnamn för tillgångs-problem eller frågor:",
-	"privatedomains-instructions": "Nedan är listan över e-postdomäner som tillåts för redigerare av denna wiki.\nVarje rad anger ett e-postsuffix som ges tillgång för redigering.\nDetta bör formateras med ett suffix per rad.\nTill exempel:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\">example.com<br />mail.example.net</div>\nDetta skulle möjliggöra redigering från vem som helst med e-postadress vadsomhelst@example.com eller vadsomhelst@mail.example.net\n<b>ange de tillåtna domänerna i textrutan nedan och tryck sedan \"spara\".</b>",
+	"privatedomains-instructions": "Här är en lista över e-postdomäner som är tillåtna för redaktörer på denna wiki.\nVarje rad anger ett e-postsuffix som ges åtkomst för redigering.\nDetta bör formateras med ett suffix per rad.\nTill exempel:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br /> mail.example.net</code></div> \nDetta skulle tillåta redigeringar från vem som helst med e-postadressen <code>whatever@example.com</code> eller <code>whatever@mail.example.net</code> \n<strong>Ange de tillåtna domänerna i textrutan och klicka på \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "hantera privata domäner",
 	"right-privatedomains": "Hantera privata domäner"
 }
