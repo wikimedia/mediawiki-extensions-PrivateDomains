@@ -25,7 +25,11 @@ class SpecialPrivateDomains extends SpecialPage {
 	 * Constructor -- set up the new special page
 	 */
 	public function __construct() {
-		parent::__construct( 'PrivateDomains'/*class*/, 'privatedomains'/*restriction*/ );
+		parent::__construct( 'PrivateDomains' );
+	}
+
+	public function getRestriction(): string {
+		return 'privatedomains';
 	}
 
 	public function doesWrites() {
