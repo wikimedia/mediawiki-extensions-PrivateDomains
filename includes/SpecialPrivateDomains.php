@@ -172,7 +172,13 @@ class SpecialPrivateDomains extends SpecialPage {
 				$lang->commaList( $groupLinks ),
 				count( $groupLinks ) );
 			if ( $privatedomains_emailadmin != '' ) {
-				$out->addWikiMsg( 'privatedomains-ifemailcontact', $privatedomains_emailadmin );
+				if ( $this->getUser()->isRegistered() ) {
+					// Logged-in users → keep EmailUser link
+					$out->addWikiMsg( 'privatedomains-ifemailcontact', $privatedomains_emailadmin );
+				} else {
+					// Anonymous users → show alternative message
+					$out->addWikiMsg( 'privatedomains-ifemailcontact-anon', $privatedomains_emailadmin );
+				}
 			}
 		} else {
 			$out->addWikiMsg( 'badaccess-group0' );

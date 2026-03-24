@@ -8,6 +8,7 @@
 	"privatedomains-nomanageaccess": "You do not have enough rights to manage the allowed private domains for this wiki.\nOnly wiki bureaucrats and staff members have access.\n\nIf you are not logged in, you probably [[Special:UserLogin|should]].",
 	"privatedomains": "Manage private domains",
 	"privatedomains-ifemailcontact": "Otherwise, please contact [[Special:EmailUser/$1|$1]] if you have any questions.",
+	"privatedomains-ifemailcontact-anon": "You can contact this user via their [[User:$1|user page]].",
 	"saveprivatedomains-success": "Private domains changes saved.",
 	"privatedomains-invalidemail": "Sorry, access to this wiki is restricted to members of $1.\nIf you have an email address affiliated with $1, you can enter or reconfirm your email address on your [[Special:Preferences|account preference page]].\nYou can still view pages on this wiki, but you will be unable to edit.",
 	"privatedomains-affiliatenamelabel": "Name of organization:",
