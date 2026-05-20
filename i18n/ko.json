@@ -17,6 +17,6 @@
 	"privatedomains-affiliatenamelabel": "조직 이름:",
 	"privatedomains-emailadminlabel": "접속 문제 및 쿼리 때문에 사용자이름에 문의하기:",
 	"privatedomains-instructions": "여기에 이 위키의 편집자에게 허용된 이메일 도메인 목록이 있습니다.\n각각의 줄은 편집에 대해 주어진 이메일의 접미사를 나타냅니다.\n한 줄에 하나의 접미사로 형식이 설정되어야 합니다.\n예시: <div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\n이 설정은 <code>whatever@example.com</code> or <code>whatever@mail.example.net</code> 등의 이메일 주소를 가진 모든 사람의 편집을 허용합니다.\n<strong>텍스트 상자에 허용된 도메인을 입력하고 \"{{int:saveprefs}}\"을(를) 클릭하세요.</strong>",
-	"action-privatedomains": "개인 도메인을 관리할",
+	"action-privatedomains": "개인 도메인 관리",
 	"right-privatedomains": "개인 도메인 관리"
 }
