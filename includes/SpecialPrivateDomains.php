@@ -25,7 +25,11 @@ class SpecialPrivateDomains extends SpecialPage {
 	 * Constructor -- set up the new special page
 	 */
 	public function __construct() {
-		parent::__construct( 'PrivateDomains' );
+		if ( version_compare( MW_VERSION, '1.46', '>=' ) ) {
+			parent::__construct( 'PrivateDomains' );
+		} else {
+			parent::__construct( 'PrivateDomains', 'privatedomains' );
+		}
 	}
 
 	public function getRestriction(): string {
