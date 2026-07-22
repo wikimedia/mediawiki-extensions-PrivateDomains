@@ -20,6 +20,15 @@
 			"i18n"
 		]
 	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PrivateDomains"
+	},
+	"ResourceModules": {
+		"ext.privatedomains.privatedomains": {
+			"styles": "resources/ext.privatedomains.css"
+		}
+	},
 	"ExtensionMessagesFiles": {
 		"PrivateDomainsAlias": "PrivateDomains.alias.php"
 	},

@@ -1,0 +1,22 @@
+.privatedomains-successbox {
+	width:92%;
+}
+
+.privatedomains-instructions {
+	width: 20%; padding:5px;
+	border: 1px solid grey;
+}
+
+.privatedomains-container {
+	display: flex;
+	margin-bottom: 5px;
+	align-items: flex-end;
+}
+
+.privatedomains-container label {
+	flex-basis: 40%;
+}
+
+.privatedomains-container input {
+	flex-basis: 60%;
+}

@@ -137,13 +137,19 @@ class SpecialPrivateDomains extends SpecialPage {
 			);
 		}
 
+		$out->addModuleStyles( 'ext.privatedomains.privatedomains' );
+
 		// Render the main form for changing PrivateDomains' settings.
 		$out->addHTML(
 			'<form name="privatedomains" id="privatedomains" method="post" action="' . $action . '">
+		<div class="privatedomains-container">
 		<label for="affiliateName"><br />' . $this->msg( 'privatedomains-affiliatenamelabel' )->escaped() . ' </label>
 		<input type="text" name="affiliateName" width="30" value="' . $this->getParam( 'privatedomains-affiliatename' ) . '" />
+		</div>
+		<div class="privatedomains-container">
 		<label for="optionalEmail"><br />' . $this->msg( 'privatedomains-emailadminlabel' )->escaped() . ' </label>
-		<input type="text" name="optionalPrivateDomainsEmail" value="' . $this->getParam( 'privatedomains-emailadmin' ) . '" />' );
+		<input type="text" name="optionalPrivateDomainsEmail" value="' . $this->getParam( 'privatedomains-emailadmin' ) . '" />
+		</div>' );
 		$out->addWikiMsg( 'privatedomains-instructions' );
 		$out->addHTML( '<textarea name="listdata" rows="10" cols="40">' . $this->getParam( 'privatedomains-domains' ) . '</textarea>' );
 		$out->addHTML( Html::hidden( 'wpEditToken', $user->getEditToken() ) );
