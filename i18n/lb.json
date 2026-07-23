@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
+	"privatedomains-ifemailcontact-anon": "Dir kënnt dëse Benotzer iwwer seng [[User:$1|Benotzersäit]] kontaktéieren.",
 	"privatedomains-affiliatenamelabel": "Numm vun der Organisatioun"
 }
