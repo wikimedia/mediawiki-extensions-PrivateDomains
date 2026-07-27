@@ -13,7 +13,7 @@
 	"privatedomains-invalidemail": "מצטערים, הגישה ולויקי הזה מוגבלת לחברים של $1.\nאם יש לך כתובת דוא\"ל שמזוהה עם $1, באפשרותף להזין או לאשר מחדש את כתובת הדוא\"ל שלך ב[[Special:Preferences|דף העדפות החשבון]]. עדיין יש לך אפשרות להציג דפים בוויקי הזה, אך לא תהיה לך אפשרות לערוך.",
 	"privatedomains-affiliatenamelabel": "שם הארגון:",
 	"privatedomains-emailadminlabel": "שם המשתמש ליצירת קשר בנושא בעיות גישה או שאלות:",
-	"privatedomains-instructions": "להלן רשימת תחומי הדוא\"ל המותרים לעורכי הוויקי הזה.\nכל שורה מציינת סיומת דוא\"ל שניתנת גישה לעריכה.\nיש לעצב זאת בסיומת אחת בכל שורה.\nלמשל:<div style=\"width: 20%; padding:5px; border: 1px solid grey;\"><code>example.com<br />mail.example.net</code></div>\nזה יאפשר עריכות מכל מי שיש לו כתובת דוא\"ל <code>whatever@example.com</code> או <code>whatever@mail.example.net</code> \n<strong>נא להזין את התחומים המותרים בתיבת הטקסט, וללחוץ על \"{{int:saveprefs}}\".</strong>",
+	"privatedomains-instructions": "להלן רשימת תחומי הדוא\"ל המותרים לעורכי הוויקי הזה.\nכל שורה מציינת סיומת דוא\"ל שניתנת גישה לעריכה.\nיש לעצב זאת בסיומת אחת בכל שורה.\nלמשל:<div class=\"privatedomains-instructions\"><code>example.com<br />mail.example.net</code></div>\nזה יאפשר עריכות מכל מי שיש לו כתובת דוא\"ל <code>whatever@example.com</code> או <code>whatever@mail.example.net</code> \n<strong>נא להזין את התחומים המותרים בתיבת הטקסט, וללחוץ על \"{{int:saveprefs}}\".</strong>",
 	"action-privatedomains": "לנהל תחומים פרטיים",
 	"right-privatedomains": "ניהול תחומים פרטיים"
 }

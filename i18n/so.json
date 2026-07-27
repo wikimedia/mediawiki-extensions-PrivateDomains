@@ -4,6 +4,16 @@
 			"AhmedG612"
 		]
 	},
+	"privatedomains-desc": "Waxay oggolaanaysaa in tafatirka lagu xaddido isticmaalayaasha leh cinwaan iimayl gaar ah",
+	"privatedomains-nomanageaccess": "Ma haysatid xuquuq ku filan oo aad ku maamusho domain-yada gaarka ah ee la oggol yahay ee wiki-kan.\nKaliya xafiiyada ee wiki-ga iyo xubnaha shaqaalaha ayaa heli kara.\n\nHaddii aadan gelin akoonkaaga, waxaa laga yaabaa inaad [[Special:UserLogin|gasho]].",
+	"privatedomains": "Maamul domain-yada gaarka ah",
 	"privatedomains-ifemailcontact": "Haddii kale, fadlan la xiriir [[Special:EmailUser/$1|$1]] haddii aad qabto wax su'aalo ah.",
-	"privatedomains-emailadminlabel": "Magaca isticmaalaha lala xiriirayo haddii ay jiraan dhibaatooyin gelitaan ama su'aalo:"
+	"privatedomains-ifemailcontact-anon": "Waxaad kala xiriiri kartaa isticmaalahan adigoo adeegsanaya [[User:$1|boggiisa isticmaalaha]].",
+	"saveprivatedomains-success": "Isbeddellada domain-yada gaarka ah waa la kaydiyay.",
+	"privatedomains-invalidemail": "Waan ka xunnahay, gelitaanka wiki-kan waxaa loo xaddiday xubnaha $1 oo keliya.\nHaddii aad leedahay cinwaan iimayl oo la xiriira $1, waxaad geli kartaa ama dib u xaqiijin kartaa cinwaankaaga iimaylka adigoo adeegsanaya [[Special:Preferences|bogga dookhyada akoonkaaga]].\nWeli waad arki kartaa bogagga wiki-kan, laakiin ma awoodi doontid inaad wax ka beddesho.",
+	"privatedomains-affiliatenamelabel": "Magaca ururka:",
+	"privatedomains-emailadminlabel": "Magaca isticmaalaha lala xiriirayo haddii ay jiraan dhibaatooyin gelitaan ama su'aalo:",
+	"privatedomains-instructions": "Halkan waxaa ku yaal liiska domain-yada iimaylka ee loo oggol yahay tifaftirayaasha wiki-kan.\nKhadd kasta waxay qeexaysaa dhammaadka cinwaanka iimaylka (suffix) oo siinaya oggolaanshaha tafatirka.\nWaa in loo habeeyaa iyadoo hal suffix lagu qorayo khad kasta.\nTusaale ahaan:<div class=\"privatedomains-instructions\"><code>example.com<br />mail.example.net</code></div>\nTani waxay u oggolaanaysaa tafatirka qof kasta oo leh cinwaanka iimaylka <code>whatever@example.com</code> ama <code>whatever@mail.example.net</code>.\n<strong>Ku qor domain-yada la oggol yahay sanduuqa qoraalka, kadibna guji \"{{int:saveprefs}}\".</strong>",
+	"action-privatedomains": "maamul domain-yada gaarka ah",
+	"right-privatedomains": "Maamul domain-yada gaarka ah"
 }
