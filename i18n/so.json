@@ -4,6 +4,14 @@
 			"AhmedG612"
 		]
 	},
+	"privatedomains-desc": "Waxay oggolaanaysaa in tafatirka lagu xaddido isticmaalayaasha leh cinwaan iimayl gaar ah",
+	"privatedomains-nomanageaccess": "Ma haysatid xuquuq ku filan oo aad ku maamusho domain-yada gaarka ah ee la oggol yahay ee wiki-kan.\nKaliya xafiiyada ee wiki-ga iyo xubnaha shaqaalaha ayaa heli kara.\n\nHaddii aadan gelin akoonkaaga, waxaa laga yaabaa inaad [[Special:UserLogin|gasho]].",
+	"privatedomains": "Maamul domain-yada gaarka ah",
 	"privatedomains-ifemailcontact": "Haddii kale, fadlan la xiriir [[Special:EmailUser/$1|$1]] haddii aad qabto wax su'aalo ah.",
-	"privatedomains-emailadminlabel": "Magaca isticmaalaha lala xiriirayo haddii ay jiraan dhibaatooyin gelitaan ama su'aalo:"
+	"saveprivatedomains-success": "Isbeddellada domain-yada gaarka ah waa la kaydiyay.",
+	"privatedomains-invalidemail": "Waan ka xunnahay, gelitaanka wiki-kan waxaa loo xaddiday xubnaha $1 oo keliya.\nHaddii aad leedahay cinwaan iimayl oo la xiriira $1, waxaad geli kartaa ama dib u xaqiijin kartaa cinwaankaaga iimaylka adigoo adeegsanaya [[Special:Preferences|bogga dookhyada akoonkaaga]].\nWeli waad arki kartaa bogagga wiki-kan, laakiin ma awoodi doontid inaad wax ka beddesho.",
+	"privatedomains-affiliatenamelabel": "Magaca ururka:",
+	"privatedomains-emailadminlabel": "Magaca isticmaalaha lala xiriirayo haddii ay jiraan dhibaatooyin gelitaan ama su'aalo:",
+	"action-privatedomains": "maamul domain-yada gaarka ah",
+	"right-privatedomains": "Maamul domain-yada gaarka ah"
 }
