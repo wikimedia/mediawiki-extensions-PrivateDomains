@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ar choler",
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
@@ -14,6 +15,6 @@
 	"privatedomains-invalidemail": "Ma digarezit, Miret eo ar moned d'ar wiki-mañ evit izili $1.  M'ho peus ur chomlec'h postel emezelet ouzh $1 e challit mont e-barzh pe adkarnaat ho chomlec'h postel war pajenn zibaboù ar gont [[Special:Preferences|amañ]]. Gallout a rit gwelet pajennoù ar wiki-mañ, met ne c'hallit ket kemmañ anezho.",
 	"privatedomains-affiliatenamelabel": "Anv an aozadur :",
 	"privatedomains-emailadminlabel": "Anv implijer an darempred m'ho peus kudennoù mont pe rekedoù :",
-	"privatedomains-instructions": "Diskwelet eo amañ roll domanioù ar chomlec'hioù postel zo aotreet evit embannerien ar wiki-mañ.\nPep linenn a ziskouez ur rakverk postel a ro tro d'an embannerien da vont warno.\nFurmadet e tle ar roll bezañ gant ur rakverk dre linenn.\nDa skouer:<div class=\"privatedomains-instructions\"><code>example.com<br />mail.example.net</code></div>\nGant se e vefe aotreet kemmoù a-berzh pep hini gant ar chomlec’h postel <code>whatever@example.com</code> pe <code>whatever@mail.example.net</code>.\n<strong>Merkit roll an domanioù aotreet er voest, ha klikit war « saveteiñ».</strong>",
+	"privatedomains-instructions": "Setu amañ roll an domanioù postel a zo aotreet evit kemmañ ar wiki-mañ.\nPep linenn a verk ul lostger postel a ro aotre da gemmañ.\nRet eo furmadiñ gant ul lostger hepken dre linenn.\nDa skouer : <div class=\"privatedomains-instructions\"><code>skouer.com<br />skouer.postel.net</code></div>\nGant se e vefe aotreet kemmoù a-berzh kement den gant ar chomlec’h postel <code>forzhpetra@skouer.com</code> pe <code>forzhpetra@skouer.postel.net</code>.\n<strong>Skrivit er voest roll an domanioù aotreet, ha klikit war « saveteiñ ».</strong>",
 	"right-privatedomains": "Merañ an domanioù prevez"
 }
