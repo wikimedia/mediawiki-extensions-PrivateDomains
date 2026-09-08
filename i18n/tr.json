@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Leo",
 			"MuratTheTurkish",
 			"SaldırganSincap"
 		]
@@ -10,6 +11,7 @@
 	"privatedomains-nomanageaccess": "Bu viki için izin verilen özel alan adlarını yönetmek için yeterli haklara sahip değilsiniz.\nYalnızca viki bürokratları ve personel üyeleri erişebilir.\n\nOturum açmadıysanız, muhtemelen [[Special:UserLogin|yapmalısınız]].",
 	"privatedomains": "Özel alanları yönet",
 	"privatedomains-ifemailcontact": "Aksi takdirde, herhangi bir sorunuz olursa, lütfen [[Special:EmailUser/$1|$1]] ile iletişime geçin.",
+	"privatedomains-ifemailcontact-anon": "Bu kullanıcıyla [[User:$1|kullanıcı sayfası]] üzerinden iletişime geçebilirsiniz.",
 	"saveprivatedomains-success": "Özel alan adı değişiklikleri kaydedildi.",
 	"privatedomains-invalidemail": "Maalesef, bu vikiye erişim, $1 üyelerle sınırlandırıldı.\n$1 bağlı bir e-posta adresiniz varsa, [[Special:Preferences|hesap tercih sayfasınıza]] e-posta adresinizi girebilir veya onaylayabilirsiniz.\nSayfaları hala bu vikide görüntüleyebilirsiniz, ancak düzenleyemezsiniz.",
 	"privatedomains-affiliatenamelabel": "Organizasyonun adı:",
