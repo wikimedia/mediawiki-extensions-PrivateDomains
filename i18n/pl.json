@@ -2,19 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"PanWor",
 			"Rail",
 			"Railfail536",
 			"Sp5uhe"
 		]
 	},
 	"privatedomains-desc": "Umożliwia ograniczanie dostępu do edytowania użytkownikom z niektórymi adresami e-mail",
-	"privatedomains-nomanageaccess": "Nie masz wystarczających uprawnień do zarządzania prywatnymi domenami tej wiki. Robić to mogą wyłącznie członkowie grup biurokraci oraz personel.\n\nJeśli nie jesteś zalogowany możliwe, że powinieneś najpierw [[Special:UserLogin|zalogować się]].",
+	"privatedomains-nomanageaccess": "Nie masz wystarczających uprawnień do zarządzania prywatnymi domenami tej wiki. Robić to mogą wyłącznie członkowie grup biurokraci oraz personel.\n\nJeśli nie jesteś zalogowany(-a), warto najpierw [[Special:UserLogin|to zrobić]].",
 	"privatedomains": "Zarządzanie prywatnymi domenami",
 	"privatedomains-ifemailcontact": "W przeciwnym wypadku należy kontaktować się z [[Special:EmailUser/$1|$1]], o ile masz jakieś pytania.",
 	"saveprivatedomains-success": "Zmiany dla domen prywatnych zostały zapisane.",
 	"privatedomains-invalidemail": "Dostęp do tej wiki został ograniczony do członków $1. Jeśli masz adres e-mail powiązany z $1, możesz wprowadzić lub potwierdzić swój adres e‐mail na [[Special:Preferences|stronie preferencji]]. Nadal możesz przeglądać strony, ale edycja nie będzie możliwa.",
 	"privatedomains-affiliatenamelabel": "Nazwa organizacji",
 	"privatedomains-emailadminlabel": "Użytkownik kontaktowy w sprawie pytań lub problemów z dostępem",
-	"privatedomains-instructions": "Tutaj znajduje się lista domen poczty elektronicznej dostępnych dla redaktorów tej wiki. Każdy wiersz określa sufiks adresu e-mail, którego posiadanie umożliwia edycję. Należy umieścić jedną końcówkę w jednej linii.\nNa przykład: <div class=\"privatedomains-instructions\"><code>example.com<br /> mail.example.net</code></div>\nPozwoli to edytować np. posiadaczom adresów <code>whatever@example.com</code> lub <code>whatever@mail.example.net</code></div>\n<strong>Wprowadź dozwolone domeny w polu tekstowym i kliknij przycisk „{{int:saveprefs}}“.</strong>",
+	"privatedomains-instructions": "Tutaj znajduje się lista domen poczty elektronicznej dostępnych dla redaktorów tej wiki. Każdy wiersz określa sufiks adresu e-mail, do którego przyznano uprawnienia do edycji. Należy umieścić jeden sufiks w jednej linii.\nNa przykład: <div class=\"privatedomains-instructions\"><code>example.com<br /> mail.example.net</code></div>\nPozwoli to edytować np. posiadaczom adresów <code>whatever@example.com</code> lub <code>whatever@mail.example.net</code></div>\n<strong>Wprowadź dozwolone domeny w polu tekstowym i kliknij przycisk „{{int:saveprefs}}”.</strong>",
 	"right-privatedomains": "Zarządzanie własnymi domenami"
 }
