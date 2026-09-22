@@ -4,11 +4,12 @@
 			"Chrumps",
 			"Rail",
 			"Railfail536",
-			"Sp5uhe"
+			"Sp5uhe",
+			"PanWor"
 		]
 	},
 	"privatedomains-desc": "Umożliwia ograniczanie dostępu do edytowania użytkownikom z niektórymi adresami e-mail",
-	"privatedomains-nomanageaccess": "Nie masz wystarczających uprawnień do zarządzania prywatnymi domenami tej wiki. Robić to mogą wyłącznie członkowie grup biurokraci oraz personel.\n\nJeśli nie jesteś zalogowany możliwe, że powinieneś najpierw [[Special:UserLogin|zalogować się]].",
+	"privatedomains-nomanageaccess": "Nie masz wystarczających uprawnień do zarządzania prywatnymi domenami tej wiki. Robić to mogą wyłącznie członkowie grup biurokraci oraz personel.\n\nJeśli nie jesteś zalogowany(-a), warto najpierw [[Special:UserLogin|to zrobić]].",
 	"privatedomains": "Zarządzanie prywatnymi domenami",
 	"privatedomains-ifemailcontact": "W przeciwnym wypadku należy kontaktować się z [[Special:EmailUser/$1|$1]], o ile masz jakieś pytania.",
 	"saveprivatedomains-success": "Zmiany dla domen prywatnych zostały zapisane.",
