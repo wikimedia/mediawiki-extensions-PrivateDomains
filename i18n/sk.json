@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"privatedomains-desc": "Umožňuje obmedziť úpravy na používateľov s určitou e-mailovou adresou",
+	"privatedomains-nomanageaccess": "Nemáte dostatočné práva na správu povolených súkromných domén tejto wiki.\\nPrístup majú iba byrokrati wiki a zamestnanci.\\n\\nAk nie ste prihlásený, pravdepodobne [[Special:UserLogin|by ste mali]].",
+	"privatedomains": "Správa súkromných domén",
+	"privatedomains-ifemailcontact": "Ak máte otázky, inak kontaktujte [[Special:EmailUser/$1|$1]].",
+	"saveprivatedomains-success": "Zmeny súkromných domén boli uložené.",
+	"privatedomains-invalidemail": "Ľutujeme, prístup na túto wiki je obmedzený na členov $1.\\nAk máte e-mailovú adresu spojenú s $1, môžete ju zadať alebo znova potvrdiť na [[Special:Preferences|stránke nastavení účtu]].\\nStránky na tejto wiki si môžete naďalej prezerať, ale nebudete ich môcť upravovať.",
+	"privatedomains-affiliatenamelabel": "Názov organizácie:",
+	"privatedomains-emailadminlabel": "Používateľské meno kontaktu pre problémy s prístupom alebo otázky:",
+	"action-privatedomains": "spravovať súkromné domény",
+	"right-privatedomains": "Správa súkromných domén"
+}
